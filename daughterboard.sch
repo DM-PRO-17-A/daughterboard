@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:daughterboard
+LIBS:efm32
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,6 +30,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:daughterboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
