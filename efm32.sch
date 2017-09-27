@@ -1,0 +1,299 @@
+EESchema Schematic File Version 2
+LIBS:daughterboard
+LIBS:efm32
+LIBS:motor_drivers
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:daughterboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L EFM32G200F64 U?
+U 4 1 59CC3020
+P 1700 950
+AR Path="/59CC3020" Ref="U?"  Part="4" 
+AR Path="/59CBAD0F/59CC3020" Ref="U?"  Part="4" 
+AR Path="/59CC2B37/59CC3020" Ref="U?"  Part="4" 
+F 0 "U?" H 2030 1130 60  0000 L BNN
+F 1 "EFM32G200F64" H 2330 1130 60  0000 L BNN
+F 2 "" H 1700 950 60  0001 C CNN
+F 3 "" H 1700 950 60  0001 C CNN
+	4    1700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59CC3027
+P 3700 1900
+F 0 "C?" H 3725 2000 50  0000 L CNN
+F 1 "100nF" H 3725 1800 50  0000 L CNN
+F 2 "" H 3738 1750 50  0001 C CNN
+F 3 "" H 3700 1900 50  0001 C CNN
+	1    3700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59CC302E
+P 4000 1900
+F 0 "C?" H 4025 2000 50  0000 L CNN
+F 1 "100nF" H 4025 1800 50  0000 L CNN
+F 2 "" H 4038 1750 50  0001 C CNN
+F 3 "" H 4000 1900 50  0001 C CNN
+	1    4000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59CC3035
+P 4300 1900
+F 0 "C?" H 4325 2000 50  0000 L CNN
+F 1 "100nF" H 4325 1800 50  0000 L CNN
+F 2 "" H 4338 1750 50  0001 C CNN
+F 3 "" H 4300 1900 50  0001 C CNN
+	1    4300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59CC303C
+P 4600 1900
+F 0 "C?" H 4625 2000 50  0000 L CNN
+F 1 "100nF" H 4625 1800 50  0000 L CNN
+F 2 "" H 4638 1750 50  0001 C CNN
+F 3 "" H 4600 1900 50  0001 C CNN
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59CC3043
+P 4950 1900
+F 0 "C?" H 4975 2000 50  0000 L CNN
+F 1 "10uF" H 4975 1800 50  0000 L CNN
+F 2 "" H 4988 1750 50  0001 C CNN
+F 3 "" H 4950 1900 50  0001 C CNN
+	1    4950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59CC304A
+P 5300 2250
+F 0 "#PWR?" H 5300 2000 50  0001 C CNN
+F 1 "GND" H 5300 2100 50  0000 C CNN
+F 2 "" H 5300 2250 50  0001 C CNN
+F 3 "" H 5300 2250 50  0001 C CNN
+	1    5300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59CC3050
+P 5300 1900
+F 0 "C?" H 5325 2000 50  0000 L CNN
+F 1 "1uF" H 5325 1800 50  0000 L CNN
+F 2 "" H 5338 1750 50  0001 C CNN
+F 3 "" H 5300 1900 50  0001 C CNN
+	1    5300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59CC3057
+P 1400 1900
+F 0 "C?" H 1425 2000 50  0000 L CNN
+F 1 "C" H 1425 1800 50  0000 L CNN
+F 2 "" H 1438 1750 50  0001 C CNN
+F 3 "" H 1400 1900 50  0001 C CNN
+	1    1400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59CC305E
+P 1100 1900
+F 0 "C?" H 1125 2000 50  0000 L CNN
+F 1 "C" H 1125 1800 50  0000 L CNN
+F 2 "" H 1138 1750 50  0001 C CNN
+F 3 "" H 1100 1900 50  0001 C CNN
+	1    1100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59CC3065
+P 1100 2200
+F 0 "#PWR?" H 1100 1950 50  0001 C CNN
+F 1 "GND" H 1100 2050 50  0000 C CNN
+F 2 "" H 1100 2200 50  0001 C CNN
+F 3 "" H 1100 2200 50  0001 C CNN
+	1    1100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 59CC306B
+P 3550 1350
+F 0 "#PWR?" H 3550 1200 50  0001 C CNN
+F 1 "+3.3V" H 3550 1490 50  0000 C CNN
+F 2 "" H 3550 1350 50  0001 C CNN
+F 3 "" H 3550 1350 50  0001 C CNN
+	1    3550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 59CC3071
+P 1500 1650
+F 0 "#PWR?" H 1500 1500 50  0001 C CNN
+F 1 "+3.3V" H 1500 1790 50  0000 C CNN
+F 2 "" H 1500 1650 50  0001 C CNN
+F 3 "" H 1500 1650 50  0001 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Reset SW?
+U 1 1 59CC308E
+P 950 1150
+F 0 "SW?" H 950 1300 60  0000 C CNN
+F 1 "Reset" H 950 1000 60  0000 C CNN
+F 2 "" H 950 1150 60  0001 C CNN
+F 3 "" H 950 1150 60  0001 C CNN
+	1    950  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59CC3095
+P 650 1300
+F 0 "#PWR?" H 650 1050 50  0001 C CNN
+F 1 "GND" H 650 1150 50  0000 C CNN
+F 2 "" H 650 1300 50  0001 C CNN
+F 3 "" H 650 1300 50  0001 C CNN
+	1    650  1300
+	1    0    0    -1  
+$EndComp
+Text HLabel 1700 950  0    60   Input ~ 0
+RESETn
+$Comp
+L EFM32G200F64 U?
+U 3 1 59CC7322
+P 3500 3600
+AR Path="/59CC7322" Ref="U?"  Part="3" 
+AR Path="/59CC0DBF/59CC7322" Ref="U?"  Part="3" 
+AR Path="/59CC2B37/59CC7322" Ref="U?"  Part="3" 
+F 0 "U?" H 3830 3780 60  0000 L BNN
+F 1 "EFM32G200F64" H 4130 3780 60  0000 L BNN
+F 2 "" H 3500 3600 60  0001 C CNN
+F 3 "" H 3500 3600 60  0001 C CNN
+	3    3500 3600
+	-1   0    0    1   
+$EndComp
+Text HLabel 3850 3000 2    60   Input ~ 0
+PF1
+Text HLabel 3850 2900 2    60   Input ~ 0
+PF2
+Text HLabel 3850 3100 2    60   Input ~ 0
+PF0
+Wire Wire Line
+	3300 1350 3300 1750
+Connection ~ 3300 1550
+Connection ~ 3300 1650
+Wire Wire Line
+	1100 2050 1400 2050
+Connection ~ 1100 2050
+Wire Wire Line
+	5300 950  5300 1750
+Wire Wire Line
+	1700 1750 1700 1650
+Connection ~ 1400 1750
+Wire Wire Line
+	1100 1750 1700 1750
+Connection ~ 3700 1750
+Connection ~ 4000 1750
+Connection ~ 4300 1750
+Connection ~ 4600 1750
+Wire Wire Line
+	3300 1750 4950 1750
+Wire Wire Line
+	5300 950  3300 950 
+Wire Wire Line
+	1700 950  1700 1100
+Wire Wire Line
+	1700 1100 1250 1100
+Wire Wire Line
+	3500 2900 3850 2900
+Wire Wire Line
+	3500 3000 3850 3000
+Wire Wire Line
+	3500 3100 3850 3100
+Wire Wire Line
+	3300 2150 5300 2150
+Wire Wire Line
+	5300 2050 5300 2250
+Connection ~ 5300 2150
+Wire Wire Line
+	4950 2050 4950 2150
+Connection ~ 4950 2150
+Wire Wire Line
+	4600 2050 4600 2150
+Connection ~ 4600 2150
+Wire Wire Line
+	4300 2050 4300 2150
+Connection ~ 4300 2150
+Wire Wire Line
+	4000 2050 4000 2150
+Connection ~ 4000 2150
+Wire Wire Line
+	3700 2050 3700 2150
+Connection ~ 3700 2150
+Wire Wire Line
+	650  1200 650  1300
+Wire Wire Line
+	3300 1350 3550 1350
+Wire Wire Line
+	1700 1650 1500 1650
+Wire Wire Line
+	1100 2050 1100 2200
+$EndSCHEMATC
