@@ -2,6 +2,7 @@ EESchema Schematic File Version 2
 LIBS:daughterboard
 LIBS:efm32
 LIBS:motor_drivers
+LIBS:arduino_shieldsNCL
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -46,20 +47,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L EFM32G200F64 U?
-U 4 1 59CC3020
-P 1700 950
-AR Path="/59CC3020" Ref="U?"  Part="4" 
-AR Path="/59CBAD0F/59CC3020" Ref="U?"  Part="4" 
-AR Path="/59CC2B37/59CC3020" Ref="U?"  Part="4" 
-F 0 "U?" H 2030 1130 60  0000 L BNN
-F 1 "EFM32G200F64" H 2330 1130 60  0000 L BNN
-F 2 "" H 1700 950 60  0001 C CNN
-F 3 "" H 1700 950 60  0001 C CNN
-	4    1700 950 
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C?
 U 1 1 59CC3027
@@ -171,28 +158,6 @@ F 3 "" H 1100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
-U 1 1 59CC306B
-P 3550 1350
-F 0 "#PWR?" H 3550 1200 50  0001 C CNN
-F 1 "+3.3V" H 3550 1490 50  0000 C CNN
-F 2 "" H 3550 1350 50  0001 C CNN
-F 3 "" H 3550 1350 50  0001 C CNN
-	1    3550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 59CC3071
-P 1500 1650
-F 0 "#PWR?" H 1500 1500 50  0001 C CNN
-F 1 "+3.3V" H 1500 1790 50  0000 C CNN
-F 2 "" H 1500 1650 50  0001 C CNN
-F 3 "" H 1500 1650 50  0001 C CNN
-	1    1500 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Reset SW?
 U 1 1 59CC308E
 P 950 1150
@@ -216,84 +181,326 @@ F 3 "" H 650 1300 50  0001 C CNN
 $EndComp
 Text HLabel 1700 950  0    60   Input ~ 0
 RESETn
-$Comp
-L EFM32G200F64 U?
-U 3 1 59CC7322
-P 3500 3600
-AR Path="/59CC7322" Ref="U?"  Part="3" 
-AR Path="/59CC0DBF/59CC7322" Ref="U?"  Part="3" 
-AR Path="/59CC2B37/59CC7322" Ref="U?"  Part="3" 
-F 0 "U?" H 3830 3780 60  0000 L BNN
-F 1 "EFM32G200F64" H 4130 3780 60  0000 L BNN
-F 2 "" H 3500 3600 60  0001 C CNN
-F 3 "" H 3500 3600 60  0001 C CNN
-	3    3500 3600
-	-1   0    0    1   
-$EndComp
-Text HLabel 3850 3000 2    60   Input ~ 0
+Text HLabel 3250 4100 2    60   Input ~ 0
 PF1
-Text HLabel 3850 2900 2    60   Input ~ 0
+Text HLabel 3250 4200 2    60   Input ~ 0
 PF2
-Text HLabel 3850 3100 2    60   Input ~ 0
+Text HLabel 3250 4000 2    60   Input ~ 0
 PF0
+$Comp
+L +3V3 #PWR?
+U 1 1 59CD76E9
+P 3550 1350
+F 0 "#PWR?" H 3550 1200 50  0001 C CNN
+F 1 "+3V3" H 3550 1490 50  0000 C CNN
+F 2 "" H 3550 1350 50  0001 C CNN
+F 3 "" H 3550 1350 50  0001 C CNN
+	1    3550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 59CD79AF
+P 1500 1650
+F 0 "#PWR?" H 1500 1500 50  0001 C CNN
+F 1 "+3V3" H 1500 1790 50  0000 C CNN
+F 2 "" H 1500 1650 50  0001 C CNN
+F 3 "" H 1500 1650 50  0001 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L EFM32G230F128 U?
+U 1 1 59D05AE9
+P 8500 4150
+F 0 "U?" H 8830 4330 60  0000 L BNN
+F 1 "EFM32G230F128" H 9130 4330 60  0000 L BNN
+F 2 "" H 8500 4150 60  0001 C CNN
+F 3 "" H 8500 4150 60  0001 C CNN
+	1    8500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L EFM32G230F128 U?
+U 2 1 59D05BBE
+P 7850 900
+F 0 "U?" H 8180 1080 60  0000 L BNN
+F 1 "EFM32G230F128" H 8480 1080 60  0000 L BNN
+F 2 "" H 7850 900 60  0001 C CNN
+F 3 "" H 7850 900 60  0001 C CNN
+	2    7850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L EFM32G230F128 U?
+U 3 1 59D05C77
+P 3000 3100
+F 0 "U?" H 3330 3280 60  0000 L BNN
+F 1 "EFM32G230F128" H 3630 3280 60  0000 L BNN
+F 2 "" H 3000 3100 60  0001 C CNN
+F 3 "" H 3000 3100 60  0001 C CNN
+	3    3000 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EFM32G230F128 U?
+U 4 1 59D05D2A
+P 1700 950
+F 0 "U?" H 2030 1130 60  0000 L BNN
+F 1 "EFM32G230F128" H 2330 1130 60  0000 L BNN
+F 2 "" H 1700 950 60  0001 C CNN
+F 3 "" H 1700 950 60  0001 C CNN
+	4    1700 950 
+	1    0    0    -1  
+$EndComp
+Text HLabel 6950 2500 0    60   Input ~ 0
+ADC0_CH[0..7]
+Entry Bus Bus
+	7250 2500 7350 2600
+Entry Bus Bus
+	7250 2600 7350 2700
+Entry Bus Bus
+	7250 2700 7350 2800
+Entry Bus Bus
+	7250 2800 7350 2900
+Entry Bus Bus
+	7250 2900 7350 3000
+Entry Bus Bus
+	7250 3000 7350 3100
+Entry Bus Bus
+	7250 3100 7350 3200
+Entry Bus Bus
+	7250 3200 7350 3300
+Text Label 7850 2600 2    60   ~ 0
+ADCO_CH0
+Text Label 7850 2700 2    60   ~ 0
+ADCO_CH1
+Text Label 7850 2800 2    60   ~ 0
+ADCO_CH2
+Text Label 7850 2900 2    60   ~ 0
+ADCO_CH3
+Text Label 7850 3000 2    60   ~ 0
+ADCO_CH4
+Text Label 7850 3100 2    60   ~ 0
+ADCO_CH5
+Text Label 7850 3200 2    60   ~ 0
+ADCO_CH6
+Text Label 7850 3300 2    60   ~ 0
+ADCO_CH7
+Text HLabel 7450 1700 0    60   Input ~ 0
+AIN1
+Text HLabel 7450 1800 0    60   Input ~ 0
+AIN2
+Text HLabel 7450 1900 0    60   Input ~ 0
+BIN1
+Text HLabel 7450 2000 0    60   Input ~ 0
+BIN2
+Text HLabel 7450 2200 0    60   Input ~ 0
+PWMA
+Text HLabel 8200 4850 0    60   Input ~ 0
+PWMB
+Text HLabel 3250 3700 2    60   Input ~ 0
+TX
+Text HLabel 3250 3800 2    60   Input ~ 0
+RX
 Wire Wire Line
-	3300 1350 3300 1750
-Connection ~ 3300 1550
-Connection ~ 3300 1650
+	3250 4200 3000 4200
 Wire Wire Line
-	1100 2050 1400 2050
-Connection ~ 1100 2050
+	3250 4100 3000 4100
 Wire Wire Line
-	5300 950  5300 1750
+	3250 4000 3000 4000
 Wire Wire Line
-	1700 1750 1700 1650
-Connection ~ 1400 1750
+	1100 2050 1100 2200
 Wire Wire Line
-	1100 1750 1700 1750
-Connection ~ 3700 1750
-Connection ~ 4000 1750
-Connection ~ 4300 1750
-Connection ~ 4600 1750
+	650  1200 650  1300
+Connection ~ 3700 2150
 Wire Wire Line
-	3300 1750 4950 1750
+	3700 2050 3700 2150
+Connection ~ 4000 2150
 Wire Wire Line
-	5300 950  3300 950 
+	4000 2150 4000 2050
+Connection ~ 4300 2150
 Wire Wire Line
-	1700 950  1700 1100
+	4300 2150 4300 2050
+Connection ~ 4600 2150
+Wire Wire Line
+	4600 2150 4600 2050
+Connection ~ 4950 2150
+Wire Wire Line
+	4950 2150 4950 2050
+Connection ~ 5300 2150
+Wire Wire Line
+	5300 2050 5300 2150
+Wire Wire Line
+	5300 2150 5300 2250
+Wire Wire Line
+	3300 2150 3700 2150
+Wire Wire Line
+	3700 2150 4000 2150
+Wire Wire Line
+	4000 2150 4300 2150
+Wire Wire Line
+	4300 2150 4600 2150
+Wire Wire Line
+	4600 2150 4950 2150
+Wire Wire Line
+	4950 2150 5300 2150
 Wire Wire Line
 	1700 1100 1250 1100
 Wire Wire Line
-	3500 2900 3850 2900
+	1700 950  1700 1100
 Wire Wire Line
-	3500 3000 3850 3000
+	5300 950  3300 950 
 Wire Wire Line
-	3500 3100 3850 3100
+	3300 1750 3700 1750
 Wire Wire Line
-	3300 2150 5300 2150
+	3700 1750 4000 1750
 Wire Wire Line
-	5300 2050 5300 2250
-Connection ~ 5300 2150
+	4000 1750 4300 1750
 Wire Wire Line
-	4950 2050 4950 2150
-Connection ~ 4950 2150
+	4300 1750 4600 1750
 Wire Wire Line
-	4600 2050 4600 2150
-Connection ~ 4600 2150
+	4600 1750 4950 1750
+Connection ~ 4600 1750
+Connection ~ 4300 1750
+Connection ~ 4000 1750
+Connection ~ 3700 1750
 Wire Wire Line
-	4300 2050 4300 2150
-Connection ~ 4300 2150
+	1100 1750 1400 1750
 Wire Wire Line
-	4000 2050 4000 2150
-Connection ~ 4000 2150
+	1400 1750 1700 1750
+Connection ~ 1400 1750
 Wire Wire Line
-	3700 2050 3700 2150
-Connection ~ 3700 2150
+	5300 950  5300 1750
+Connection ~ 1100 2050
 Wire Wire Line
-	650  1200 650  1300
-Wire Wire Line
-	3300 1350 3550 1350
+	1100 2050 1400 2050
 Wire Wire Line
 	1700 1650 1500 1650
 Wire Wire Line
-	1100 2050 1100 2200
+	1700 1750 1700 1650
+Wire Wire Line
+	3300 1350 3300 1550
+Wire Wire Line
+	3300 1550 3300 1650
+Wire Wire Line
+	3300 1650 3300 1750
+Connection ~ 3300 1650
+Connection ~ 3300 1550
+Wire Wire Line
+	3550 1350 3300 1350
+Wire Wire Line
+	7350 2600 7850 2600
+Wire Wire Line
+	7350 2700 7850 2700
+Wire Wire Line
+	7350 2800 7850 2800
+Wire Wire Line
+	7350 2900 7850 2900
+Wire Wire Line
+	7350 3000 7850 3000
+Wire Wire Line
+	7350 3100 7850 3100
+Wire Wire Line
+	7350 3200 7850 3200
+Wire Wire Line
+	7350 3300 7850 3300
+Wire Bus Line
+	6950 2500 7250 2500
+Wire Bus Line
+	7250 2500 7250 2600
+Wire Bus Line
+	7250 2600 7250 2700
+Wire Bus Line
+	7250 2700 7250 2800
+Wire Bus Line
+	7250 2800 7250 2900
+Wire Bus Line
+	7250 2900 7250 3000
+Wire Bus Line
+	7250 3000 7250 3100
+Wire Bus Line
+	7250 3100 7250 3200
+Wire Wire Line
+	7850 1700 7450 1700
+Wire Wire Line
+	7850 1800 7450 1800
+Wire Wire Line
+	7850 1900 7450 1900
+Wire Wire Line
+	7850 2000 7450 2000
+Wire Wire Line
+	7850 2200 7450 2200
+Wire Wire Line
+	8500 4850 8200 4850
+Wire Wire Line
+	7850 900  7400 900 
+Wire Wire Line
+	7850 1000 7400 1000
+Wire Wire Line
+	7850 1100 7400 1100
+Wire Wire Line
+	7850 1200 7400 1200
+Wire Wire Line
+	7850 1300 7400 1300
+Wire Wire Line
+	7850 1400 7400 1400
+Wire Wire Line
+	7850 1500 7400 1500
+Wire Wire Line
+	7850 1600 7400 1600
+Entry Bus Bus
+	7300 800  7400 900 
+Entry Bus Bus
+	7300 900  7400 1000
+Entry Bus Bus
+	7300 1000 7400 1100
+Entry Bus Bus
+	7300 1100 7400 1200
+Entry Bus Bus
+	7300 1200 7400 1300
+Entry Bus Bus
+	7300 1300 7400 1400
+Entry Bus Bus
+	7300 1400 7400 1500
+Entry Bus Bus
+	7300 1500 7400 1600
+Wire Bus Line
+	7300 1500 7300 1400
+Wire Bus Line
+	7300 1400 7300 1300
+Wire Bus Line
+	7300 1300 7300 1200
+Wire Bus Line
+	7300 1200 7300 1100
+Wire Bus Line
+	7300 1100 7300 1000
+Wire Bus Line
+	7300 1000 7300 900 
+Wire Bus Line
+	7300 900  7300 800 
+Wire Bus Line
+	7300 800  6950 800 
+Text HLabel 6950 800  0    60   Input ~ 0
+PC[0..7]
+Text Label 7550 900  0    60   ~ 0
+PC0
+Text Label 7550 1000 0    60   ~ 0
+PC1
+Text Label 7550 1100 0    60   ~ 0
+PC2
+Text Label 7550 1200 0    60   ~ 0
+PC3
+Text Label 7550 1300 0    60   ~ 0
+PC4
+Text Label 7550 1400 0    60   ~ 0
+PC5
+Text Label 7550 1500 0    60   ~ 0
+PC6
+Text Label 7550 1600 0    60   ~ 0
+PC7
+Wire Wire Line
+	3000 3700 3250 3700
+Wire Wire Line
+	3000 3800 3250 3800
 $EndSCHEMATC
