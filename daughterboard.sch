@@ -872,8 +872,6 @@ NoConn ~ 3500 5650
 NoConn ~ 3500 5350
 NoConn ~ 3500 5250
 NoConn ~ 3500 5150
-NoConn ~ 10650 2550
-NoConn ~ 10650 2650
 NoConn ~ 10650 2750
 NoConn ~ 10650 2250
 NoConn ~ 8750 3150
@@ -1166,4 +1164,61 @@ Text Label 9600 3850 0    60   ~ 0
 PA[0..6]
 Text Label 4900 1650 0    60   ~ 0
 ADC0_CH[0..7]
+$Comp
+L CONN_01X01 J?
+U 1 1 59D3E304
+P 10950 2550
+F 0 "J?" H 10950 2650 50  0000 C CNN
+F 1 "J" V 11050 2550 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10950 2550 50  0001 C CNN
+F 3 "" H 10950 2550 50  0001 C CNN
+	1    10950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 J?
+U 1 1 59D3E474
+P 10950 2650
+F 0 "J?" H 10950 2750 50  0000 C CNN
+F 1 "J" V 11050 2650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10950 2650 50  0001 C CNN
+F 3 "" H 10950 2650 50  0001 C CNN
+	1    10950 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 2550 10750 2550
+Wire Wire Line
+	10650 2650 10750 2650
+$Comp
+L USB_OTG J?
+U 1 1 59DBC735
+P 900 1900
+F 0 "J?" H 700 2350 50  0000 L CNN
+F 1 "USB_OTG" H 700 2250 50  0000 L CNN
+F 2 "" H 1050 1850 50  0001 C CNN
+F 3 "" H 1050 1850 50  0001 C CNN
+	1    900  1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1700 1700 1700
+Wire Wire Line
+	1700 1700 1700 950 
+Connection ~ 1700 950 
+$Comp
+L GND #PWR?
+U 1 1 59DBFCAF
+P 800 2500
+F 0 "#PWR?" H 800 2250 50  0001 C CNN
+F 1 "GND" H 800 2350 50  0000 C CNN
+F 2 "" H 800 2500 50  0001 C CNN
+F 3 "" H 800 2500 50  0001 C CNN
+	1    800  2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  2500 800  2300
+Wire Wire Line
+	800  2300 900  2300
 $EndSCHEMATC

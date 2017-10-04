@@ -179,7 +179,7 @@ F 3 "" H 650 1300 50  0001 C CNN
 	1    650  1300
 	1    0    0    -1  
 $EndComp
-Text HLabel 1700 950  0    60   Input ~ 0
+Text HLabel 1350 1100 1    60   Input ~ 0
 RESETn
 Text HLabel 3250 4100 2    60   Input ~ 0
 PF1
@@ -413,10 +413,6 @@ Entry Bus Bus
 	7850 5650 7950 5750
 Entry Bus Bus
 	7850 5750 7950 5850
-Text Label 8450 5350 2    60   ~ 0
-PB7
-Text Label 8450 5450 2    60   ~ 0
-PB8
 Text Label 8450 5550 2    60   ~ 0
 PB11
 Text Label 8450 5650 2    60   ~ 0
@@ -622,18 +618,18 @@ Wire Bus Line
 Wire Bus Line
 	7850 5450 7600 5450
 Wire Wire Line
-	7850 2100 7400 2100
+	7850 2100 7450 2100
 Wire Wire Line
-	7850 2300 7400 2300
+	7850 2300 7450 2300
 Wire Wire Line
-	7850 2400 7400 2400
+	7850 2400 7450 2400
 Wire Wire Line
 	7850 3400 7400 3400
-Text HLabel 7400 2100 0    60   Input ~ 0
+Text HLabel 7450 2100 0    60   Input ~ 0
 PC12
-Text HLabel 7400 2300 0    60   Input ~ 0
+Text HLabel 7450 2300 0    60   Input ~ 0
 PC14
-Text HLabel 7400 2400 0    60   Input ~ 0
+Text HLabel 7450 2400 0    60   Input ~ 0
 PC15
 Text HLabel 7400 3400 0    60   Input ~ 0
 PD8
