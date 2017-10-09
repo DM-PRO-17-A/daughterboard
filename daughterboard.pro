@@ -1,4 +1,4 @@
-update=27.09.2017 17:45:42
+update=ma. 09. okt. 2017 kl. 23.47 +0200
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
+LibName34=Oscillators
