@@ -235,7 +235,7 @@ U 1 1 59DA0537
 P 10750 2050
 F 0 "J21" H 10950 2050 50  0000 C CNN
 F 1 "J" V 10850 2050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10750 2050 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 2050 50  0001 C CNN
 F 3 "" H 10750 2050 50  0001 C CNN
 	1    10750 2050
 	1    0    0    -1  
@@ -246,7 +246,7 @@ U 1 1 59DA3F4C
 P 10750 1950
 F 0 "J20" H 10950 1950 50  0000 C CNN
 F 1 "J" V 10850 1950 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10750 1950 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1950 50  0001 C CNN
 F 3 "" H 10750 1950 50  0001 C CNN
 	1    10750 1950
 	1    0    0    -1  
@@ -257,7 +257,7 @@ U 1 1 59DA4049
 P 10750 1850
 F 0 "J19" H 10950 1850 50  0000 C CNN
 F 1 "J" V 10850 1850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10750 1850 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1850 50  0001 C CNN
 F 3 "" H 10750 1850 50  0001 C CNN
 	1    10750 1850
 	1    0    0    -1  
@@ -268,7 +268,7 @@ U 1 1 59DA4121
 P 10750 1750
 F 0 "J18" H 10950 1750 50  0000 C CNN
 F 1 "J" V 10850 1750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10750 1750 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1750 50  0001 C CNN
 F 3 "" H 10750 1750 50  0001 C CNN
 	1    10750 1750
 	1    0    0    -1  
@@ -279,7 +279,7 @@ U 1 1 59DA422A
 P 10750 1650
 F 0 "J17" H 10950 1650 50  0000 C CNN
 F 1 "J" V 10850 1650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10750 1650 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1650 50  0001 C CNN
 F 3 "" H 10750 1650 50  0001 C CNN
 	1    10750 1650
 	1    0    0    -1  
@@ -290,7 +290,7 @@ U 1 1 59DA430C
 P 10750 1550
 F 0 "J16" H 10950 1550 50  0000 C CNN
 F 1 "J" V 10850 1550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10750 1550 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1550 50  0001 C CNN
 F 3 "" H 10750 1550 50  0001 C CNN
 	1    10750 1550
 	1    0    0    -1  
@@ -301,7 +301,7 @@ U 1 1 59DA8E3B
 P 8150 2650
 F 0 "J12" H 8350 2650 50  0000 C CNN
 F 1 "J" V 8250 2650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8150 2650 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8150 2650 50  0001 C CNN
 F 3 "" H 8150 2650 50  0001 C CNN
 	1    8150 2650
 	-1   0    0    1   
@@ -312,7 +312,7 @@ U 1 1 59DAA28F
 P 8150 2750
 F 0 "J13" H 8350 2750 50  0000 C CNN
 F 1 "J" V 8250 2750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8150 2750 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8150 2750 50  0001 C CNN
 F 3 "" H 8150 2750 50  0001 C CNN
 	1    8150 2750
 	-1   0    0    1   
@@ -323,7 +323,7 @@ U 1 1 59DAA362
 P 8150 2850
 F 0 "J14" H 8350 2850 50  0000 C CNN
 F 1 "J" V 8250 2850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8150 2850 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8150 2850 50  0001 C CNN
 F 3 "" H 8150 2850 50  0001 C CNN
 	1    8150 2850
 	-1   0    0    1   
@@ -334,7 +334,7 @@ U 1 1 59DAA440
 P 8150 2950
 F 0 "J15" H 8350 2950 50  0000 C CNN
 F 1 "J" V 8250 2950 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8150 2950 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8150 2950 50  0001 C CNN
 F 3 "" H 8150 2950 50  0001 C CNN
 	1    8150 2950
 	-1   0    0    1   
@@ -356,7 +356,7 @@ U 1 1 59D347B8
 P 8350 4350
 F 0 "J11" H 8550 4350 50  0000 C CNN
 F 1 "J" V 8450 4350 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8350 4350 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8350 4350 50  0001 C CNN
 F 3 "" H 8350 4350 50  0001 C CNN
 	1    8350 4350
 	1    0    0    -1  
@@ -367,7 +367,7 @@ U 1 1 59D348EE
 P 8350 4250
 F 0 "J10" H 8550 4250 50  0000 C CNN
 F 1 "J" V 8450 4250 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8350 4250 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8350 4250 50  0001 C CNN
 F 3 "" H 8350 4250 50  0001 C CNN
 	1    8350 4250
 	1    0    0    -1  
@@ -378,7 +378,7 @@ U 1 1 59D7C6B4
 P 4650 4350
 F 0 "J6" H 4850 4350 50  0000 C CNN
 F 1 "J" V 4750 4350 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 4650 4350 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4650 4350 50  0001 C CNN
 F 3 "" H 4650 4350 50  0001 C CNN
 	1    4650 4350
 	-1   0    0    1   
@@ -389,7 +389,7 @@ U 1 1 59D7C860
 P 4650 4450
 F 0 "J7" H 4850 4450 50  0000 C CNN
 F 1 "J" V 4750 4450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 4650 4450 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4650 4450 50  0001 C CNN
 F 3 "" H 4650 4450 50  0001 C CNN
 	1    4650 4450
 	-1   0    0    1   
@@ -400,7 +400,7 @@ U 1 1 59D7C9B3
 P 4650 4550
 F 0 "J8" H 4850 4550 50  0000 C CNN
 F 1 "J" V 4750 4550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 4650 4550 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4650 4550 50  0001 C CNN
 F 3 "" H 4650 4550 50  0001 C CNN
 	1    4650 4550
 	-1   0    0    1   
@@ -411,7 +411,7 @@ U 1 1 59D7CB02
 P 4650 4650
 F 0 "J9" H 4850 4650 50  0000 C CNN
 F 1 "J" V 4750 4650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 4650 4650 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4650 4650 50  0001 C CNN
 F 3 "" H 4650 4650 50  0001 C CNN
 	1    4650 4650
 	-1   0    0    1   
@@ -453,7 +453,7 @@ U 1 1 59D3E304
 P 10650 2550
 F 0 "J22" H 10850 2550 50  0000 C CNN
 F 1 "J" V 10750 2550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10650 2550 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10650 2550 50  0001 C CNN
 F 3 "" H 10650 2550 50  0001 C CNN
 	1    10650 2550
 	1    0    0    -1  
@@ -464,7 +464,7 @@ U 1 1 59D3E474
 P 10650 2650
 F 0 "J23" H 10850 2650 50  0000 C CNN
 F 1 "J" V 10750 2650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10650 2650 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10650 2650 50  0001 C CNN
 F 3 "" H 10650 2650 50  0001 C CNN
 	1    10650 2650
 	1    0    0    -1  
@@ -561,18 +561,6 @@ Wire Wire Line
 	7200 2550 8450 2550
 Wire Wire Line
 	7200 2450 8450 2450
-Wire Wire Line
-	7200 2250 8450 2250
-Wire Wire Line
-	7200 2150 8450 2150
-Wire Wire Line
-	7200 2050 8450 2050
-Wire Wire Line
-	7200 1950 8450 1950
-Wire Wire Line
-	7200 1850 8450 1850
-Wire Wire Line
-	7200 1750 8450 1750
 Wire Wire Line
 	10550 2350 10350 2350
 Wire Wire Line
@@ -755,12 +743,12 @@ F21 "PC15" I L 5200 4550 60
 F22 "PD8" I L 5200 4650 60 
 F23 "SDA" I R 7200 3250 60 
 F24 "SCL" I R 7200 3350 60 
-F25 "PC0" I R 7200 1750 60 
-F26 "PC1" I R 7200 1850 60 
-F27 "PC2" I R 7200 1950 60 
-F28 "PC3" I R 7200 2050 60 
-F29 "PC4" I R 7200 2150 60 
-F30 "PC5" I R 7200 2250 60 
+F25 "PC0" I R 7200 2250 60 
+F26 "PC1" I R 7200 2150 60 
+F27 "PC2" I R 7200 2050 60 
+F28 "PC3" I R 7200 1950 60 
+F29 "PC4" I R 7200 1850 60 
+F30 "PC5" I R 7200 1750 60 
 F31 "PC6" I R 7200 2450 60 
 F32 "PC7" I R 7200 2550 60 
 $EndSheet
@@ -777,18 +765,6 @@ Text Label 8250 1550 0    60   ~ 0
 TX
 Text Label 8250 1650 0    60   ~ 0
 RX
-Text Label 8250 1750 0    60   ~ 0
-PC0
-Text Label 8250 1850 0    60   ~ 0
-PC1
-Text Label 8250 1950 0    60   ~ 0
-PC2
-Text Label 8250 2050 0    60   ~ 0
-PC3
-Text Label 8250 2150 0    60   ~ 0
-PC4
-Text Label 8250 2250 0    60   ~ 0
-PC5
 Text Label 8250 2450 0    60   ~ 0
 PC6
 Text Label 8250 2550 0    60   ~ 0
@@ -836,4 +812,28 @@ AD1
 Text Label 10400 2050 0    60   ~ 0
 AD0
 NoConn ~ 6400 -150
+Wire Wire Line
+	7200 1750 8450 1750
+Wire Wire Line
+	7200 1850 8450 1850
+Wire Wire Line
+	7200 1950 8450 1950
+Wire Wire Line
+	7200 2050 8450 2050
+Wire Wire Line
+	7200 2150 8450 2150
+Wire Wire Line
+	7200 2250 8450 2250
+Text Label 8200 1750 0    60   ~ 0
+PC5
+Text Label 8200 1850 0    60   ~ 0
+PC4
+Text Label 8200 1950 0    60   ~ 0
+PC3
+Text Label 8200 2050 0    60   ~ 0
+PC2
+Text Label 8200 2150 0    60   ~ 0
+PC1
+Text Label 8200 2250 0    60   ~ 0
+PC0
 $EndSCHEMATC
