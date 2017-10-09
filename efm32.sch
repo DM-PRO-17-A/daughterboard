@@ -56,7 +56,7 @@ F 1 "100nF" H 3725 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3738 1750 50  0001 C CNN
 F 3 "" H 3700 1900 50  0001 C CNN
 	1    3700 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C10
@@ -67,7 +67,7 @@ F 1 "100nF" H 4025 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4038 1750 50  0001 C CNN
 F 3 "" H 4000 1900 50  0001 C CNN
 	1    4000 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C11
@@ -78,7 +78,7 @@ F 1 "100nF" H 4325 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4338 1750 50  0001 C CNN
 F 3 "" H 4300 1900 50  0001 C CNN
 	1    4300 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C12
@@ -89,7 +89,7 @@ F 1 "100nF" H 4625 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4638 1750 50  0001 C CNN
 F 3 "" H 4600 1900 50  0001 C CNN
 	1    4600 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C13
@@ -100,7 +100,7 @@ F 1 "10uF" H 4975 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4988 1750 50  0001 C CNN
 F 3 "" H 4950 1900 50  0001 C CNN
 	1    4950 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR019
@@ -111,7 +111,7 @@ F 1 "GND" H 5300 2100 50  0000 C CNN
 F 2 "" H 5300 2250 50  0001 C CNN
 F 3 "" H 5300 2250 50  0001 C CNN
 	1    5300 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C14
@@ -122,7 +122,7 @@ F 1 "1uF" H 5325 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5338 1750 50  0001 C CNN
 F 3 "" H 5300 1900 50  0001 C CNN
 	1    5300 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C8
@@ -133,7 +133,7 @@ F 1 "100nF" H 1425 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1438 1750 50  0001 C CNN
 F 3 "" H 1400 1900 50  0001 C CNN
 	1    1400 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C7
@@ -144,7 +144,7 @@ F 1 "100nF" H 1125 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1138 1750 50  0001 C CNN
 F 3 "" H 1100 1900 50  0001 C CNN
 	1    1100 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR020
@@ -155,7 +155,7 @@ F 1 "GND" H 1100 2050 50  0000 C CNN
 F 2 "" H 1100 2200 50  0001 C CNN
 F 3 "" H 1100 2200 50  0001 C CNN
 	1    1100 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Reset SW1
@@ -166,7 +166,7 @@ F 1 "Reset" H 950 1000 60  0000 C CNN
 F 2 "footprints:SW-4" H 950 1150 60  0001 C CNN
 F 3 "" H 950 1150 60  0001 C CNN
 	1    950  1150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR021
@@ -177,7 +177,7 @@ F 1 "GND" H 650 1150 50  0000 C CNN
 F 2 "" H 650 1300 50  0001 C CNN
 F 3 "" H 650 1300 50  0001 C CNN
 	1    650  1300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text HLabel 1350 1100 1    60   Input ~ 0
 RESETn
@@ -196,7 +196,7 @@ F 1 "+3V3" H 3550 1490 50  0000 C CNN
 F 2 "" H 3550 1350 50  0001 C CNN
 F 3 "" H 3550 1350 50  0001 C CNN
 	1    3550 1350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +3V3 #PWR023
@@ -207,7 +207,7 @@ F 1 "+3V3" H 1500 1790 50  0000 C CNN
 F 2 "" H 1500 1650 50  0001 C CNN
 F 3 "" H 1500 1650 50  0001 C CNN
 	1    1500 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L EFM32G230F128 U3
@@ -218,7 +218,7 @@ F 1 "EFM32G230F128" H 9130 4330 60  0000 L BNN
 F 2 "Housings_DFN_QFN:QFN-64-1EP_9x9mm_Pitch0.5mm" H 8500 4150 60  0001 C CNN
 F 3 "" H 8500 4150 60  0001 C CNN
 	1    8500 4150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L EFM32G230F128 U3
@@ -228,8 +228,8 @@ F 0 "U3" H 8180 1080 60  0000 L BNN
 F 1 "EFM32G230F128" H 8480 1080 60  0000 L BNN
 F 2 "Housings_DFN_QFN:QFN-64-1EP_9x9mm_Pitch0.5mm" H 7850 900 60  0001 C CNN
 F 3 "" H 7850 900 60  0001 C CNN
-	2    7850 900 
-	1    0    0    -1  
+	2    7850 900
+	1    0    0    -1
 $EndComp
 $Comp
 L EFM32G230F128 U3
@@ -240,7 +240,7 @@ F 1 "EFM32G230F128" H 3630 3280 60  0000 L BNN
 F 2 "Housings_DFN_QFN:QFN-64-1EP_9x9mm_Pitch0.5mm" H 3000 3100 60  0001 C CNN
 F 3 "" H 3000 3100 60  0001 C CNN
 	3    3000 3100
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L EFM32G230F128 U3
@@ -250,8 +250,8 @@ F 0 "U3" H 2030 1130 60  0000 L BNN
 F 1 "EFM32G230F128" H 2330 1130 60  0000 L BNN
 F 2 "Housings_DFN_QFN:QFN-64-1EP_9x9mm_Pitch0.5mm" H 1700 950 60  0001 C CNN
 F 3 "" H 1700 950 60  0001 C CNN
-	4    1700 950 
-	1    0    0    -1  
+	4    1700 950
+	1    0    0    -1
 $EndComp
 Text HLabel 7450 1700 0    60   Input ~ 0
 AIN1
@@ -285,7 +285,7 @@ Text HLabel 7450 2300 0    60   Input ~ 0
 PC14
 Text HLabel 7450 2400 0    60   Input ~ 0
 PC15
-Text HLabel 7400 3400 0    60   Input ~ 0
+Text HLabel 7000 3400 0    60   Input ~ 0
 PD8
 NoConn ~ 650  1100
 NoConn ~ 1250 1200
@@ -316,45 +316,23 @@ Wire Wire Line
 	4950 2150 4950 2050
 Connection ~ 5300 2150
 Wire Wire Line
-	5300 2050 5300 2150
+	5300 2050 5300 2250
 Wire Wire Line
-	5300 2150 5300 2250
-Wire Wire Line
-	3300 2150 3700 2150
-Wire Wire Line
-	3700 2150 4000 2150
-Wire Wire Line
-	4000 2150 4300 2150
-Wire Wire Line
-	4300 2150 4600 2150
-Wire Wire Line
-	4600 2150 4950 2150
-Wire Wire Line
-	4950 2150 5300 2150
+	3300 2150 5300 2150
 Wire Wire Line
 	1700 1100 1250 1100
 Wire Wire Line
 	1700 950  1700 1100
 Wire Wire Line
-	5300 950  3300 950 
+	5300 950  3300 950
 Wire Wire Line
-	3300 1750 3700 1750
-Wire Wire Line
-	3700 1750 4000 1750
-Wire Wire Line
-	4000 1750 4300 1750
-Wire Wire Line
-	4300 1750 4600 1750
-Wire Wire Line
-	4600 1750 4950 1750
+	3300 1750 4950 1750
 Connection ~ 4600 1750
 Connection ~ 4300 1750
 Connection ~ 4000 1750
 Connection ~ 3700 1750
 Wire Wire Line
-	1100 1750 1400 1750
-Wire Wire Line
-	1400 1750 1700 1750
+	1100 1750 1700 1750
 Connection ~ 1400 1750
 Wire Wire Line
 	5300 950  5300 1750
@@ -366,11 +344,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 1750 1700 1650
 Wire Wire Line
-	3300 1350 3300 1550
-Wire Wire Line
-	3300 1550 3300 1650
-Wire Wire Line
-	3300 1650 3300 1750
+	3300 1350 3300 1750
 Connection ~ 3300 1650
 Connection ~ 3300 1550
 Wire Wire Line
@@ -404,7 +378,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 4850 8200 4850
 Wire Wire Line
-	7850 900  7400 900 
+	7850 900  7400 900
 Wire Wire Line
 	7850 1000 7400 1000
 Wire Wire Line
@@ -480,39 +454,39 @@ Wire Wire Line
 Wire Wire Line
 	7850 2400 7450 2400
 Wire Wire Line
-	7850 3400 7400 3400
+	7850 3400 7000 3400
 $Comp
-L CONN_01X10 J?
+L CONN_01X10 J33
 U 1 1 59DD5EAA
 P 5850 3050
-F 0 "J?" H 5850 3600 50  0000 C CNN
+F 0 "J33" H 5850 3600 50  0000 C CNN
 F 1 "QTR-8A" V 5950 3050 50  0000 C CNN
 F 2 "Connectors_JST:JST_XH_B10B-XH-A_10x2.50mm_Straight" H 5850 3050 50  0001 C CNN
 F 3 "" H 5850 3050 50  0001 C CNN
 	1    5850 3050
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
-L +3V3 #PWR?
+L +3V3 #PWR024
 U 1 1 59DD5EC1
-P 6250 3400
-F 0 "#PWR?" H 6250 3250 50  0001 C CNN
-F 1 "+3V3" H 6250 3540 50  0000 C CNN
-F 2 "" H 6250 3400 50  0001 C CNN
-F 3 "" H 6250 3400 50  0001 C CNN
-	1    6250 3400
-	0    1    -1   0   
+P 6250 3700
+F 0 "#PWR024" H 6250 3550 50  0001 C CNN
+F 1 "+3V3" H 6250 3840 50  0000 C CNN
+F 2 "" H 6250 3700 50  0001 C CNN
+F 3 "" H 6250 3700 50  0001 C CNN
+	1    6250 3700
+	1    0    0    1
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR025
 U 1 1 59DD5EC7
 P 6050 3650
-F 0 "#PWR?" H 6050 3400 50  0001 C CNN
+F 0 "#PWR025" H 6050 3400 50  0001 C CNN
 F 1 "GND" H 6050 3500 50  0000 C CNN
 F 2 "" H 6050 3650 50  0001 C CNN
 F 3 "" H 6050 3650 50  0001 C CNN
 	1    6050 3650
-	0    -1   1    0   
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	6050 3500 6050 3650
@@ -523,125 +497,125 @@ SDA
 Text HLabel 8150 4250 0    60   Input ~ 0
 SCL
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J34
 U 1 1 59DEB067
 P 8000 4650
-F 0 "J?" H 8200 4650 50  0000 C CNN
+F 0 "J34" H 8200 4650 50  0000 C CNN
 F 1 "J" V 8100 4650 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8000 4650 50  0001 C CNN
 F 3 "" H 8000 4650 50  0001 C CNN
 	1    8000 4650
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J35
 U 1 1 59DEB06E
 P 8000 4750
-F 0 "J?" H 8200 4750 50  0000 C CNN
+F 0 "J35" H 8200 4750 50  0000 C CNN
 F 1 "J" V 8100 4750 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8000 4750 50  0001 C CNN
 F 3 "" H 8000 4750 50  0001 C CNN
 	1    8000 4750
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
-L LED D?
+L LED D1
 U 1 1 59DEB075
-P 4950 5400
-F 0 "D?" H 4950 5500 50  0000 C CNN
-F 1 "LED" H 4950 5300 50  0000 C CNN
-F 2 "" H 4950 5400 50  0001 C CNN
-F 3 "" H 4950 5400 50  0001 C CNN
-	1    4950 5400
-	0    1    -1   0   
+P 5750 5400
+F 0 "D1" H 5750 5500 50  0000 C CNN
+F 1 "LED" H 5750 5300 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 5750 5400 50  0001 C CNN
+F 3 "" H 5750 5400 50  0001 C CNN
+	1    5750 5400
+	0    1    -1   0
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR026
 U 1 1 59DEB07C
-P 4950 5650
-F 0 "#PWR?" H 4950 5400 50  0001 C CNN
-F 1 "GND" H 4950 5500 50  0000 C CNN
-F 2 "" H 4950 5650 50  0001 C CNN
-F 3 "" H 4950 5650 50  0001 C CNN
-	1    4950 5650
-	-1   0    0    -1  
+P 5750 5650
+F 0 "#PWR026" H 5750 5400 50  0001 C CNN
+F 1 "GND" H 5750 5500 50  0000 C CNN
+F 2 "" H 5750 5650 50  0001 C CNN
+F 3 "" H 5750 5650 50  0001 C CNN
+	1    5750 5650
+	-1   0    0    -1
 $EndComp
 $Comp
-L LED D?
+L LED D2
 U 1 1 59DEB082
-P 5200 5400
-F 0 "D?" H 5200 5500 50  0000 C CNN
-F 1 "LED" H 5200 5300 50  0000 C CNN
-F 2 "" H 5200 5400 50  0001 C CNN
-F 3 "" H 5200 5400 50  0001 C CNN
-	1    5200 5400
-	0    1    -1   0   
+P 6000 5400
+F 0 "D2" H 6000 5500 50  0000 C CNN
+F 1 "LED" H 6000 5300 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 6000 5400 50  0001 C CNN
+F 3 "" H 6000 5400 50  0001 C CNN
+	1    6000 5400
+	0    1    -1   0
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR027
 U 1 1 59DEB089
-P 5200 5650
-F 0 "#PWR?" H 5200 5400 50  0001 C CNN
-F 1 "GND" H 5200 5500 50  0000 C CNN
-F 2 "" H 5200 5650 50  0001 C CNN
-F 3 "" H 5200 5650 50  0001 C CNN
-	1    5200 5650
-	-1   0    0    -1  
+P 6000 5650
+F 0 "#PWR027" H 6000 5400 50  0001 C CNN
+F 1 "GND" H 6000 5500 50  0000 C CNN
+F 2 "" H 6000 5650 50  0001 C CNN
+F 3 "" H 6000 5650 50  0001 C CNN
+	1    6000 5650
+	-1   0    0    -1
 $EndComp
 $Comp
-L LED D?
+L LED D3
 U 1 1 59DEB08F
-P 5450 5400
-F 0 "D?" H 5450 5500 50  0000 C CNN
-F 1 "LED" H 5450 5300 50  0000 C CNN
-F 2 "" H 5450 5400 50  0001 C CNN
-F 3 "" H 5450 5400 50  0001 C CNN
-	1    5450 5400
-	0    1    -1   0   
+P 6250 5400
+F 0 "D3" H 6250 5500 50  0000 C CNN
+F 1 "LED" H 6250 5300 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 6250 5400 50  0001 C CNN
+F 3 "" H 6250 5400 50  0001 C CNN
+	1    6250 5400
+	0    1    -1   0
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR028
 U 1 1 59DEB096
-P 5450 5650
-F 0 "#PWR?" H 5450 5400 50  0001 C CNN
-F 1 "GND" H 5450 5500 50  0000 C CNN
-F 2 "" H 5450 5650 50  0001 C CNN
-F 3 "" H 5450 5650 50  0001 C CNN
-	1    5450 5650
-	-1   0    0    -1  
+P 6250 5650
+F 0 "#PWR028" H 6250 5400 50  0001 C CNN
+F 1 "GND" H 6250 5500 50  0000 C CNN
+F 2 "" H 6250 5650 50  0001 C CNN
+F 3 "" H 6250 5650 50  0001 C CNN
+	1    6250 5650
+	-1   0    0    -1
 $EndComp
 $Comp
-L R R?
+L R R4
 U 1 1 59DEB09C
-P 5450 4950
-F 0 "R?" V 5530 4950 50  0000 C CNN
-F 1 "R" V 5450 4950 50  0000 C CNN
-F 2 "" V 5380 4950 50  0001 C CNN
-F 3 "" H 5450 4950 50  0001 C CNN
-	1    5450 4950
-	-1   0    0    -1  
+P 6250 4950
+F 0 "R4" V 6330 4950 50  0000 C CNN
+F 1 "R" V 6250 4950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 6180 4950 50  0001 C CNN
+F 3 "" H 6250 4950 50  0001 C CNN
+	1    6250 4950
+	-1   0    0    -1
 $EndComp
 $Comp
-L R R?
+L R R3
 U 1 1 59DEB0A3
-P 5200 4950
-F 0 "R?" V 5280 4950 50  0000 C CNN
-F 1 "R" V 5200 4950 50  0000 C CNN
-F 2 "" V 5130 4950 50  0001 C CNN
-F 3 "" H 5200 4950 50  0001 C CNN
-	1    5200 4950
-	-1   0    0    -1  
+P 6000 4950
+F 0 "R3" V 6080 4950 50  0000 C CNN
+F 1 "R" V 6000 4950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5930 4950 50  0001 C CNN
+F 3 "" H 6000 4950 50  0001 C CNN
+	1    6000 4950
+	-1   0    0    -1
 $EndComp
 $Comp
-L R R?
+L R R2
 U 1 1 59DEB0AA
-P 4950 4950
-F 0 "R?" V 5030 4950 50  0000 C CNN
-F 1 "R" V 4950 4950 50  0000 C CNN
-F 2 "" V 4880 4950 50  0001 C CNN
-F 3 "" H 4950 4950 50  0001 C CNN
-	1    4950 4950
-	-1   0    0    -1  
+P 5750 4950
+F 0 "R2" V 5830 4950 50  0000 C CNN
+F 1 "R" V 5750 4950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5680 4950 50  0001 C CNN
+F 3 "" H 5750 4950 50  0001 C CNN
+	1    5750 4950
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	4950 5100 4950 5250
@@ -660,127 +634,149 @@ Wire Wire Line
 Wire Wire Line
 	5200 4450 5200 4800
 Wire Wire Line
-	4950 4350 4950 4800
+5750 4350 5750 4800
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J39
+U 1 1 59DF4B8D
+P 8000 5850
+F 0 "J39" H 8200 5850 50  0000 C CNN
+F 1 "J" V 8100 5850 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8000 5850 50  0001 C CNN
+F 3 "" H 8000 5850 50  0001 C CNN
+	1    8000 5850
+	-1   0    0    -1
+$EndComp
+$Comp
+L CONN_01X01 J38
+U 1 1 59DF4B94
+P 8000 5750
+F 0 "J38" H 8200 5750 50  0000 C CNN
+F 1 "J" V 8100 5750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8000 5750 50  0001 C CNN
+F 3 "" H 8000 5750 50  0001 C CNN
+	1    8000 5750
+	-1   0    0    -1
+$EndComp
+$Comp
+L CONN_01X01 J37
 U 1 1 59DF4B9B
 P 8000 5650
-F 0 "J?" H 8200 5650 50  0000 C CNN
+F 0 "J37" H 8200 5650 50  0000 C CNN
 F 1 "J" V 8100 5650 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8000 5650 50  0001 C CNN
 F 3 "" H 8000 5650 50  0001 C CNN
 	1    8000 5650
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J36
 U 1 1 59DF4BA2
 P 8000 5550
-F 0 "J?" H 8200 5550 50  0000 C CNN
+F 0 "J36" H 8200 5550 50  0000 C CNN
 F 1 "J" V 8100 5550 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 8000 5550 50  0001 C CNN
 F 3 "" H 8000 5550 50  0001 C CNN
 	1    8000 5550
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J24
 U 1 1 59DF5305
 P 3750 3100
-F 0 "J?" H 3750 3200 50  0000 C CNN
+F 0 "J24" H 3750 3200 50  0000 C CNN
 F 1 "J" V 3850 3100 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 3750 3100 50  0001 C CNN
 F 3 "" H 3750 3100 50  0001 C CNN
 	1    3750 3100
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J25
 U 1 1 59DF530C
 P 3750 3200
-F 0 "J?" H 3750 3300 50  0000 C CNN
+F 0 "J25" H 3750 3300 50  0000 C CNN
 F 1 "J" V 3850 3200 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 3750 3200 50  0001 C CNN
 F 3 "" H 3750 3200 50  0001 C CNN
 	1    3750 3200
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J28
 U 1 1 59DF5313
 P 3750 3700
-F 0 "J?" H 3750 3800 50  0000 C CNN
+F 0 "J28" H 3750 3800 50  0000 C CNN
 F 1 "J" V 3850 3700 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 3750 3700 50  0001 C CNN
 F 3 "" H 3750 3700 50  0001 C CNN
 	1    3750 3700
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J29
 U 1 1 59DF531A
 P 3750 3800
-F 0 "J?" H 3750 3900 50  0000 C CNN
+F 0 "J29" H 3750 3900 50  0000 C CNN
 F 1 "J" V 3850 3800 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 3750 3800 50  0001 C CNN
 F 3 "" H 3750 3800 50  0001 C CNN
 	1    3750 3800
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J26
 U 1 1 59DF5321
 P 3750 3500
-F 0 "J?" H 3750 3600 50  0000 C CNN
+F 0 "J26" H 3750 3600 50  0000 C CNN
 F 1 "J" V 3850 3500 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 3750 3500 50  0001 C CNN
 F 3 "" H 3750 3500 50  0001 C CNN
 	1    3750 3500
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J27
 U 1 1 59DF5328
 P 3750 3600
-F 0 "J?" H 3750 3700 50  0000 C CNN
+F 0 "J27" H 3750 3700 50  0000 C CNN
 F 1 "J" V 3850 3600 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 3750 3600 50  0001 C CNN
 F 3 "" H 3750 3600 50  0001 C CNN
 	1    3750 3600
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J30
 U 1 1 59DF5338
 P 3750 4300
-F 0 "J?" H 3750 4400 50  0000 C CNN
+F 0 "J30" H 3750 4400 50  0000 C CNN
 F 1 "J" V 3850 4300 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 3750 4300 50  0001 C CNN
 F 3 "" H 3750 4300 50  0001 C CNN
 	1    3750 4300
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J31
 U 1 1 59DF533F
 P 3750 4400
-F 0 "J?" H 3750 4500 50  0000 C CNN
+F 0 "J31" H 3750 4500 50  0000 C CNN
 F 1 "J" V 3850 4400 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 3750 4400 50  0001 C CNN
 F 3 "" H 3750 4400 50  0001 C CNN
 	1    3750 4400
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 $Comp
-L CONN_01X01 J?
+L CONN_01X01 J32
 U 1 1 59DF5346
 P 3750 4500
-F 0 "J?" H 3750 4600 50  0000 C CNN
+F 0 "J32" H 3750 4600 50  0000 C CNN
 F 1 "J" V 3850 4500 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 3750 4500 50  0001 C CNN
 F 3 "" H 3750 4500 50  0001 C CNN
 	1    3750 4500
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Text HLabel 7400 900  0    60   Input ~ 0
 PC0
@@ -807,7 +803,7 @@ F 1 "Crystal_GND24" H 6575 6325 50  0000 L CNN
 F 2 "" H 6450 6200 50  0001 C CNN
 F 3 "" H 6450 6200 50  0001 C CNN
 	1    6450 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR?
@@ -818,7 +814,7 @@ F 1 "GND" H 6450 6350 50  0000 C CNN
 F 2 "" H 6450 6500 50  0001 C CNN
 F 3 "" H 6450 6500 50  0001 C CNN
 	1    6450 6500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6150 6500 6450 6500
@@ -836,7 +832,7 @@ F 1 "10pF" H 6760 6270 50  0000 L CNN
 F 2 "" H 6750 6350 50  0001 C CNN
 F 3 "" H 6750 6350 50  0001 C CNN
 	1    6750 6350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C?
@@ -847,7 +843,7 @@ F 1 "10pF" H 6160 6270 50  0000 L CNN
 F 2 "" H 6150 6350 50  0001 C CNN
 F 3 "" H 6150 6350 50  0001 C CNN
 	1    6150 6350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6750 6500 6750 6450
@@ -876,8 +872,124 @@ F 1 "GND" H 6450 5800 50  0000 C CNN
 F 2 "" H 6450 5950 50  0001 C CNN
 F 3 "" H 6450 5950 50  0001 C CNN
 	1    6450 5950
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	6450 6000 6450 5950
+Text Label 3050 3100 0    60   ~ 0
+PE8
+Text Label 3050 3200 0    60   ~ 0
+PE9
+Text Label 3050 3500 0    60   ~ 0
+PE12
+Text Label 3050 3600 0    60   ~ 0
+PE13
+Text Label 3050 3700 0    60   ~ 0
+PE14
+Text Label 3050 3800 0    60   ~ 0
+PE15
+Text Label 3050 4000 0    60   ~ 0
+PF0
+Text Label 3050 4100 0    60   ~ 0
+PF1
+Text Label 3050 4200 0    60   ~ 0
+PF2
+Text Label 3050 4300 0    60   ~ 0
+PF3
+Text Label 3050 4400 0    60   ~ 0
+PF4
+Text Label 3050 4500 0    60   ~ 0
+PF5
+Text Label 3050 3300 0    60   ~ 0
+TX
+Text Label 3050 3400 0    60   ~ 0
+RX
+Text Label 7600 900  0    60   ~ 0
+PC0
+Text Label 7600 1000 0    60   ~ 0
+PC1
+Text Label 7600 1100 0    60   ~ 0
+PC2
+Text Label 7600 1200 0    60   ~ 0
+PC3
+Text Label 7600 1300 0    60   ~ 0
+PC4
+Text Label 7600 1400 0    60   ~ 0
+PC5
+Text Label 7600 1500 0    60   ~ 0
+PC6
+Text Label 7600 1600 0    60   ~ 0
+PC7
+Text Label 7600 1700 0    60   ~ 0
+AIN1
+Text Label 7600 1800 0    60   ~ 0
+AIN2
+Text Label 7600 1900 0    60   ~ 0
+BIN1
+Text Label 7600 2000 0    60   ~ 0
+BIN2
+Text Label 7600 2100 0    60   ~ 0
+PC12
+Text Label 7600 2200 0    60   ~ 0
+PWMA
+Text Label 7600 2300 0    60   ~ 0
+PC14
+Text Label 7600 2400 0    60   ~ 0
+PC15
+Wire Wire Line
+	6250 3400 6250 3700
+Text Label 7300 2600 0    60   ~ 0
+ADC0_CH0
+Text Label 7300 2700 0    60   ~ 0
+ADC0_CH1
+Text Label 7300 2800 0    60   ~ 0
+ADC0_CH2
+Text Label 7300 2900 0    60   ~ 0
+ADC0_CH3
+Text Label 7300 3000 0    60   ~ 0
+ADC0_CH4
+Text Label 7300 3100 0    60   ~ 0
+ADC0_CH5
+Text Label 7300 3200 0    60   ~ 0
+ADC0_CH6
+Text Label 7300 3300 0    60   ~ 0
+ADC0_CH7
+Text Label 8300 4150 0    60   ~ 0
+SDA
+Text Label 8300 4250 0    60   ~ 0
+SCL
+Text Label 8300 4350 0    60   ~ 0
+PA2
+Text Label 8300 4450 0    60   ~ 0
+PA3
+Text Label 8300 4550 0    60   ~ 0
+PA4
+Text Label 8300 4650 0    60   ~ 0
+PA5
+Text Label 8300 4750 0    60   ~ 0
+PA6
+Text Label 8250 4850 0    60   ~ 0
+PWMB
+Text Label 8300 4950 0    60   ~ 0
+PA9
+Text Label 8300 5050 0    60   ~ 0
+PA10
+Text Label 8300 5150 0    60   ~ 0
+PA15
+Text Label 8300 5350 0    60   ~ 0
+PB7
+Text Label 8300 5450 0    60   ~ 0
+PB8
+Text Label 8300 5550 0    60   ~ 0
+PB11
+Text Label 8300 5650 0    60   ~ 0
+PB12
+Text Label 8300 5750 0    60   ~ 0
+PB13
+Text Label 8300 5850 0    60   ~ 0
+PB14
+Text Label 7650 3400 0    60   ~ 0
+PD8
+Text Label 3400 950  0    60   ~ 0
+DCPL
 $EndSCHEMATC

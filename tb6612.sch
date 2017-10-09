@@ -102,13 +102,13 @@ F 3 "" H 6250 2350 50  0001 C CNN
 	1    6250 2350
 	1    0    0    -1  
 $EndComp
-Text HLabel 6550 3100 2    60   Input ~ 0
+Text HLabel 6650 3100 2    60   Input ~ 0
 MotorA1
-Text HLabel 6550 3400 2    60   Input ~ 0
+Text HLabel 6650 3400 2    60   Input ~ 0
 MotorA2
-Text HLabel 6550 3600 2    60   Input ~ 0
+Text HLabel 6650 3600 2    60   Input ~ 0
 MotorB1
-Text HLabel 6550 3900 2    60   Input ~ 0
+Text HLabel 6650 3900 2    60   Input ~ 0
 MotorB2
 $Comp
 L +3V3 #PWR016
@@ -165,6 +165,40 @@ F 3 "" H 4750 2350 50  0001 C CNN
 	1    4750 2350
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R1
+U 1 1 59CD0432
+P 4700 3100
+F 0 "R1" V 4780 3100 50  0000 C CNN
+F 1 "10k" V 4700 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4630 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0001 C CNN
+	1    4700 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR018
+U 1 1 59CD04A5
+P 4500 3100
+F 0 "#PWR018" H 4500 2950 50  0001 C CNN
+F 1 "+3V3" H 4500 3240 50  0000 C CNN
+F 2 "" H 4500 3100 50  0001 C CNN
+F 3 "" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4800 3300 0    60   Input ~ 0
+PWMA
+Text HLabel 4800 3400 0    60   Input ~ 0
+PWMB
+Text HLabel 4800 3600 0    60   Input ~ 0
+AIN1
+Text HLabel 4800 3700 0    60   Input ~ 0
+AIN2
+Text HLabel 4800 3800 0    60   Input ~ 0
+BIN1
+Text HLabel 4800 3900 0    60   Input ~ 0
+BIN2
 Wire Wire Line
 	4500 2200 5450 2200
 Wire Wire Line
@@ -176,22 +210,6 @@ Connection ~ 5050 2200
 Wire Wire Line
 	5450 2200 5450 2500
 Connection ~ 4750 2200
-Wire Wire Line
-	6350 3900 6550 3900
-Wire Wire Line
-	6350 3800 6350 3900
-Wire Wire Line
-	6350 3600 6550 3600
-Wire Wire Line
-	6350 3700 6350 3600
-Wire Wire Line
-	6350 3400 6550 3400
-Wire Wire Line
-	6350 3300 6350 3400
-Wire Wire Line
-	6350 3100 6550 3100
-Wire Wire Line
-	6350 3200 6350 3100
 Connection ~ 6250 2200
 Connection ~ 6550 2200
 Connection ~ 6550 2500
@@ -208,57 +226,61 @@ Connection ~ 5850 4500
 Connection ~ 5750 4500
 Connection ~ 5600 4500
 Wire Wire Line
-	5400 4500 6050 4500
+	5450 4500 6050 4500
 Wire Wire Line
 	4500 2500 5050 2500
-$Comp
-L R R1
-U 1 1 59CD0432
-P 4850 3100
-F 0 "R1" V 4930 3100 50  0000 C CNN
-F 1 "10k" V 4850 3100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4780 3100 50  0001 C CNN
-F 3 "" H 4850 3100 50  0001 C CNN
-	1    4850 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L +3V3 #PWR018
-U 1 1 59CD04A5
-P 4500 3100
-F 0 "#PWR018" H 4500 2950 50  0001 C CNN
-F 1 "+3V3" H 4500 3240 50  0000 C CNN
-F 2 "" H 4500 3100 50  0001 C CNN
-F 3 "" H 4500 3100 50  0001 C CNN
-	1    4500 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5150 3100 5000 3100
+	5150 3100 4850 3100
 Wire Wire Line
-	4700 3100 4500 3100
-Text HLabel 4950 3300 0    60   Input ~ 0
+	4550 3100 4500 3100
+Wire Wire Line
+	6350 3100 6350 3200
+Wire Wire Line
+	6350 3300 6350 3400
+Wire Wire Line
+	6350 3600 6350 3700
+Wire Wire Line
+	6350 3800 6350 3900
+Wire Wire Line
+	4800 3300 5150 3300
+Wire Wire Line
+	5150 3400 4800 3400
+Wire Wire Line
+	5150 3600 4800 3600
+Wire Wire Line
+	5150 3700 4800 3700
+Wire Wire Line
+	5150 3800 4800 3800
+Wire Wire Line
+	5150 3900 4800 3900
+Wire Wire Line
+	6350 3100 6650 3100
+Wire Wire Line
+	6350 3400 6650 3400
+Wire Wire Line
+	6650 3600 6350 3600
+Wire Wire Line
+	6350 3900 6650 3900
+Text Label 4900 3300 0    60   ~ 0
 PWMA
-Text HLabel 4950 3400 0    60   Input ~ 0
+Text Label 4900 3400 0    60   ~ 0
 PWMB
-Text HLabel 4950 3600 0    60   Input ~ 0
+Text Label 4900 3600 0    60   ~ 0
 AIN1
-Text HLabel 4950 3700 0    60   Input ~ 0
+Text Label 4900 3700 0    60   ~ 0
 AIN2
-Text HLabel 4950 3800 0    60   Input ~ 0
+Text Label 4900 3800 0    60   ~ 0
 BIN1
-Text HLabel 4950 3900 0    60   Input ~ 0
+Text Label 4900 3900 0    60   ~ 0
 BIN2
-Wire Wire Line
-	5150 3300 4950 3300
-Wire Wire Line
-	5150 3400 4950 3400
-Wire Wire Line
-	5150 3600 4950 3600
-Wire Wire Line
-	5150 3700 4950 3700
-Wire Wire Line
-	5150 3800 4950 3800
-Wire Wire Line
-	5150 3900 4950 3900
+Text Label 6400 3100 0    60   ~ 0
+AO1
+Text Label 6400 3400 0    60   ~ 0
+AO2
+Text Label 6400 3600 0    60   ~ 0
+BO1
+Text Label 6400 3900 0    60   ~ 0
+BO2
+Text Label 4900 3100 0    60   ~ 0
+STBY
 $EndSCHEMATC
