@@ -715,10 +715,6 @@ F 3 "" H 7950 5750 50  0001 C CNN
 	1    7950 5750
 	-1   0    0    1   
 $EndComp
-Text HLabel 7400 900  0    60   Input ~ 0
-PC0
-Text HLabel 7400 1000 0    60   Input ~ 0
-PC1
 Text HLabel 7400 1100 0    60   Input ~ 0
 PC2
 Text HLabel 7400 1200 0    60   Input ~ 0
@@ -927,4 +923,6 @@ PA8
 Connection ~ 650  1200
 Wire Wire Line
 	1250 1100 1250 1200
+NoConn ~ 7400 900 
+NoConn ~ 7400 1000
 $EndSCHEMATC

@@ -295,39 +295,6 @@ F 3 "" H 4650 4350 50  0001 C CNN
 	1    4650 4350
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_01X01 J7
-U 1 1 59D7C860
-P 4650 4450
-F 0 "J7" H 4850 4450 50  0000 C CNN
-F 1 "J" V 4750 4450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4650 4450 50  0001 C CNN
-F 3 "" H 4650 4450 50  0001 C CNN
-	1    4650 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X01 J8
-U 1 1 59D7C9B3
-P 4650 4550
-F 0 "J8" H 4850 4550 50  0000 C CNN
-F 1 "J" V 4750 4550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4650 4550 50  0001 C CNN
-F 3 "" H 4650 4550 50  0001 C CNN
-	1    4650 4550
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X01 J9
-U 1 1 59D7CB02
-P 4650 4650
-F 0 "J9" H 4850 4650 50  0000 C CNN
-F 1 "J" V 4750 4650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4650 4650 50  0001 C CNN
-F 3 "" H 4650 4650 50  0001 C CNN
-	1    4650 4650
-	-1   0    0    1   
-$EndComp
 NoConn ~ 3500 6050
 NoConn ~ 3500 5950
 NoConn ~ 3500 5650
@@ -380,6 +347,178 @@ F 2 "" H 800 2400 50  0001 C CNN
 F 3 "" H 800 2400 50  0001 C CNN
 	1    800  2400
 	1    0    0    -1  
+$EndComp
+$Comp
+L Switch BTN1
+U 1 1 59DF8A35
+P 8750 4900
+F 0 "BTN1" H 8750 5050 60  0000 C CNN
+F 1 "Button" H 8750 4750 60  0000 C CNN
+F 2 "lib_fp:Small_switch" H 8750 4900 60  0001 C CNN
+F 3 "" H 8750 4900 60  0001 C CNN
+	1    8750 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch BTN2
+U 1 1 59DFB381
+P 9150 4900
+F 0 "BTN2" H 9150 5050 60  0000 C CNN
+F 1 "Button" H 9150 4750 60  0000 C CNN
+F 2 "lib_fp:Small_switch" H 9150 4900 60  0001 C CNN
+F 3 "" H 9150 4900 60  0001 C CNN
+	1    9150 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch BTN3
+U 1 1 59DFB543
+P 9550 4900
+F 0 "BTN3" H 9550 5050 60  0000 C CNN
+F 1 "Button" H 9550 4750 60  0000 C CNN
+F 2 "lib_fp:Small_switch" H 9550 4900 60  0001 C CNN
+F 3 "" H 9550 4900 60  0001 C CNN
+	1    9550 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR012
+U 1 1 59DFBD56
+P 9100 5500
+F 0 "#PWR012" H 9100 5350 50  0001 C CNN
+F 1 "+3V3" H 9100 5640 50  0000 C CNN
+F 2 "" H 9100 5500 50  0001 C CNN
+F 3 "" H 9100 5500 50  0001 C CNN
+	1    9100 5500
+	-1   0    0    1   
+$EndComp
+$Sheet
+S 5200 1500 2000 3300
+U 59CC2B37
+F0 "EFM32" 60
+F1 "efm32.sch" 60
+F2 "PF1" I L 5200 3850 60 
+F3 "PF0" I L 5200 3950 60 
+F4 "PF2" I L 5200 4050 60 
+F5 "RESETn" I L 5200 4150 60 
+F6 "AIN1" I L 5200 3200 60 
+F7 "AIN2" I L 5200 3300 60 
+F8 "BIN1" I L 5200 3400 60 
+F9 "BIN2" I L 5200 3500 60 
+F10 "PWMA" I L 5200 2900 60 
+F11 "PWMB" I L 5200 3000 60 
+F12 "TX" I R 7200 1550 60 
+F13 "RX" I R 7200 1650 60 
+F14 "PB7" I R 7200 2950 60 
+F15 "PB8" I R 7200 3050 60 
+F16 "PC12" I L 5200 4350 60 
+F17 "PC14" I R 7200 2450 60 
+F18 "PC15" I R 7200 2550 60 
+F19 "PD8" I R 7200 2150 60 
+F20 "SDA" I R 7200 3250 60 
+F21 "SCL" I R 7200 3350 60 
+F22 "PC2" I R 7200 2050 60 
+F23 "PC3" I R 7200 1950 60 
+F24 "PC4" I R 7200 1850 60 
+F25 "PC5" I R 7200 1750 60 
+F26 "PC6" I R 7200 2250 60 
+F27 "PA15" I R 7200 3750 60 
+$EndSheet
+NoConn ~ 1200 1800
+NoConn ~ 1200 1900
+NoConn ~ 1200 2000
+Text Label 8250 1550 0    60   ~ 0
+TX
+Text Label 8250 1650 0    60   ~ 0
+RX
+Text Label 7700 3250 0    60   ~ 0
+SDA
+Text Label 7700 3350 0    60   ~ 0
+SCL
+Text Label 4700 3850 0    60   ~ 0
+PF1
+Text Label 4700 3950 0    60   ~ 0
+PF0
+Text Label 4700 4050 0    60   ~ 0
+PF2
+Text Label 4700 4150 0    60   ~ 0
+RESETn
+Text Label 4900 4350 0    60   ~ 0
+PC12
+Text Label 7650 2450 0    60   ~ 0
+PC14
+Text Label 7650 2550 0    60   ~ 0
+PC15
+Text Label 7350 2950 0    60   ~ 0
+PB7
+Text Label 7350 3050 0    60   ~ 0
+PB8
+NoConn ~ 6400 -150
+Text Label 7450 1750 0    60   ~ 0
+PC5
+Text Label 7450 1850 0    60   ~ 0
+PC4
+Text Label 7450 1950 0    60   ~ 0
+PC3
+Text Label 7450 2050 0    60   ~ 0
+PC2
+Text Label 10550 1550 0    60   ~ 0
+PB8
+Text Label 10550 1650 0    60   ~ 0
+PB7
+Text Label 10550 1750 0    60   ~ 0
+PC5
+Text Label 10550 1850 0    60   ~ 0
+PC4
+Text Label 10550 1950 0    60   ~ 0
+PC3
+Text Label 10550 2050 0    60   ~ 0
+PC2
+NoConn ~ 10350 2550
+NoConn ~ 10350 2650
+$Comp
+L CONN_01X01 J10
+U 1 1 59DF1F67
+P 8250 1750
+F 0 "J10" H 8450 1750 50  0000 C CNN
+F 1 "J" V 8350 1750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 1750 50  0001 C CNN
+F 3 "" H 8250 1750 50  0001 C CNN
+	1    8250 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J11
+U 1 1 59DF20E6
+P 8250 1850
+F 0 "J11" H 8450 1850 50  0000 C CNN
+F 1 "J" V 8350 1850 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 1850 50  0001 C CNN
+F 3 "" H 8250 1850 50  0001 C CNN
+	1    8250 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J16
+U 1 1 59DF22D1
+P 8250 1950
+F 0 "J16" H 8450 1950 50  0000 C CNN
+F 1 "J" V 8350 1950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 1950 50  0001 C CNN
+F 3 "" H 8250 1950 50  0001 C CNN
+	1    8250 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J17
+U 1 1 59DF2416
+P 8250 2050
+F 0 "J17" H 8450 2050 50  0000 C CNN
+F 1 "J" V 8350 2050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 2050 50  0001 C CNN
+F 3 "" H 8250 2050 50  0001 C CNN
+	1    8250 2050
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1400 950  2050 950 
@@ -448,8 +587,6 @@ Wire Wire Line
 Connection ~ 2450 1550
 Connection ~ 1900 950 
 Wire Wire Line
-	7200 2450 8450 2450
-Wire Wire Line
 	10550 2350 10350 2350
 Wire Wire Line
 	10350 2350 10350 2450
@@ -476,12 +613,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 3050 8450 3050
 Wire Wire Line
-	7200 4150 8700 4150
-Wire Wire Line
-	7200 4050 9100 4050
-Wire Wire Line
-	7200 3950 9500 3950
-Wire Wire Line
 	3300 2900 5200 2900
 Wire Wire Line
 	3300 3000 5200 3000
@@ -495,12 +626,6 @@ Wire Wire Line
 	3300 3500 5200 3500
 Wire Wire Line
 	5200 4350 4850 4350
-Wire Wire Line
-	5200 4450 4850 4450
-Wire Wire Line
-	5200 4550 4850 4550
-Wire Wire Line
-	5200 4650 4850 4650
 Wire Wire Line
 	5200 3850 3650 3850
 Wire Wire Line
@@ -523,45 +648,6 @@ Wire Wire Line
 	800  2400 800  2300
 Wire Wire Line
 	800  2300 1200 2300
-$Comp
-L Switch BTN1
-U 1 1 59DF8A35
-P 8750 4900
-F 0 "BTN1" H 8750 5050 60  0000 C CNN
-F 1 "Button" H 8750 4750 60  0000 C CNN
-F 2 "lib_fp:Small_switch" H 8750 4900 60  0001 C CNN
-F 3 "" H 8750 4900 60  0001 C CNN
-	1    8750 4900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8700 4150 8700 4600
-$Comp
-L Switch BTN2
-U 1 1 59DFB381
-P 9150 4900
-F 0 "BTN2" H 9150 5050 60  0000 C CNN
-F 1 "Button" H 9150 4750 60  0000 C CNN
-F 2 "lib_fp:Small_switch" H 9150 4900 60  0001 C CNN
-F 3 "" H 9150 4900 60  0001 C CNN
-	1    9150 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch BTN3
-U 1 1 59DFB543
-P 9550 4900
-F 0 "BTN3" H 9550 5050 60  0000 C CNN
-F 1 "Button" H 9550 4750 60  0000 C CNN
-F 2 "lib_fp:Small_switch" H 9550 4900 60  0001 C CNN
-F 3 "" H 9550 4900 60  0001 C CNN
-	1    9550 4900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9100 4050 9100 4600
-Wire Wire Line
-	9500 3950 9500 4600
 Wire Wire Line
 	8800 5200 8800 5400
 Wire Wire Line
@@ -571,17 +657,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 5200 9200 5400
 Connection ~ 9200 5400
-$Comp
-L +3V3 #PWR012
-U 1 1 59DFBD56
-P 9100 5500
-F 0 "#PWR012" H 9100 5350 50  0001 C CNN
-F 1 "+3V3" H 9100 5640 50  0000 C CNN
-F 2 "" H 9100 5500 50  0001 C CNN
-F 3 "" H 9100 5500 50  0001 C CNN
-	1    9100 5500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9100 5500 9100 5400
 Connection ~ 9100 5400
@@ -589,122 +664,12 @@ Wire Wire Line
 	7200 3250 8450 3250
 Wire Wire Line
 	8450 3350 7200 3350
-$Sheet
-S 5200 1500 2000 3300
-U 59CC2B37
-F0 "EFM32" 60
-F1 "efm32.sch" 60
-F2 "PF1" I L 5200 3850 60 
-F3 "PF0" I L 5200 3950 60 
-F4 "PF2" I L 5200 4050 60 
-F5 "RESETn" I L 5200 4150 60 
-F6 "AIN1" I L 5200 3200 60 
-F7 "AIN2" I L 5200 3300 60 
-F8 "BIN1" I L 5200 3400 60 
-F9 "BIN2" I L 5200 3500 60 
-F10 "PWMA" I L 5200 2900 60 
-F11 "PWMB" I L 5200 3000 60 
-F12 "TX" I R 7200 1550 60 
-F13 "RX" I R 7200 1650 60 
-F14 "PA15" I R 7200 4150 60 
-F15 "PA9" I R 7200 3950 60 
-F16 "PA10" I R 7200 4050 60 
-F17 "PB7" I R 7200 4250 60 
-F18 "PB8" I R 7200 4350 60 
-F19 "PC12" I L 5200 4350 60 
-F20 "PC14" I L 5200 4450 60 
-F21 "PC15" I L 5200 4550 60 
-F22 "PD8" I L 5200 4650 60 
-F23 "SDA" I R 7200 3250 60 
-F24 "SCL" I R 7200 3350 60 
-F25 "PC0" I R 7200 2250 60 
-F26 "PC1" I R 7200 2150 60 
-F27 "PC2" I R 7200 2050 60 
-F28 "PC3" I R 7200 1950 60 
-F29 "PC4" I R 7200 1850 60 
-F30 "PC5" I R 7200 1750 60 
-F31 "PC6" I R 7200 2450 60 
-$EndSheet
 Wire Wire Line
 	1400 3400 1100 3400
 Wire Wire Line
 	1100 3300 1400 3300
-NoConn ~ 1200 1800
-NoConn ~ 1200 1900
-NoConn ~ 1200 2000
 Wire Wire Line
 	1200 2300 1200 2100
-Text Label 8250 1550 0    60   ~ 0
-TX
-Text Label 8250 1650 0    60   ~ 0
-RX
-Text Label 8250 2450 0    60   ~ 0
-PC6
-Text Label 7700 3250 0    60   ~ 0
-SDA
-Text Label 7700 3350 0    60   ~ 0
-SCL
-Text Label 4700 3850 0    60   ~ 0
-PF1
-Text Label 4700 3950 0    60   ~ 0
-PF0
-Text Label 4700 4050 0    60   ~ 0
-PF2
-Text Label 4700 4150 0    60   ~ 0
-RESETn
-Text Label 4900 4350 0    60   ~ 0
-PC12
-Text Label 4900 4450 0    60   ~ 0
-PC14
-Text Label 4900 4550 0    60   ~ 0
-PC15
-Text Label 4900 4650 0    60   ~ 0
-PD8
-Text Label 7350 3950 0    60   ~ 0
-PA9
-Text Label 7350 4050 0    60   ~ 0
-PA10
-Text Label 7350 4150 0    60   ~ 0
-PA15
-Text Label 7350 4250 0    60   ~ 0
-PB7
-Text Label 7350 4350 0    60   ~ 0
-PB8
-NoConn ~ 6400 -150
-Wire Wire Line
-	7200 2150 8450 2150
-Wire Wire Line
-	7200 2250 8450 2250
-Text Label 7450 1750 0    60   ~ 0
-PC5
-Text Label 7450 1850 0    60   ~ 0
-PC4
-Text Label 7450 1950 0    60   ~ 0
-PC3
-Text Label 7450 2050 0    60   ~ 0
-PC2
-Text Label 7800 2150 0    60   ~ 0
-PC1
-Text Label 7800 2250 0    60   ~ 0
-PC0
-Wire Wire Line
-	7200 4250 7350 4250
-Wire Wire Line
-	7200 4350 7350 4350
-Text Label 10550 1550 0    60   ~ 0
-PB8
-Text Label 10550 1650 0    60   ~ 0
-PB7
-Text Label 10550 1750 0    60   ~ 0
-PC5
-Text Label 10550 1850 0    60   ~ 0
-PC4
-Text Label 10550 1950 0    60   ~ 0
-PC3
-Text Label 10550 2050 0    60   ~ 0
-PC2
-NoConn ~ 10350 2550
-NoConn ~ 10350 2650
 Wire Wire Line
 	7200 1850 7450 1850
 Wire Wire Line
@@ -713,51 +678,6 @@ Wire Wire Line
 	7200 2050 7450 2050
 Wire Wire Line
 	7200 1750 7450 1750
-$Comp
-L CONN_01X01 J10
-U 1 1 59DF1F67
-P 8250 1750
-F 0 "J10" H 8450 1750 50  0000 C CNN
-F 1 "J" V 8350 1750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 1750 50  0001 C CNN
-F 3 "" H 8250 1750 50  0001 C CNN
-	1    8250 1750
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X01 J11
-U 1 1 59DF20E6
-P 8250 1850
-F 0 "J11" H 8450 1850 50  0000 C CNN
-F 1 "J" V 8350 1850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 1850 50  0001 C CNN
-F 3 "" H 8250 1850 50  0001 C CNN
-	1    8250 1850
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X01 J16
-U 1 1 59DF22D1
-P 8250 1950
-F 0 "J16" H 8450 1950 50  0000 C CNN
-F 1 "J" V 8350 1950 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 1950 50  0001 C CNN
-F 3 "" H 8250 1950 50  0001 C CNN
-	1    8250 1950
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X01 J17
-U 1 1 59DF2416
-P 8250 2050
-F 0 "J17" H 8450 2050 50  0000 C CNN
-F 1 "J" V 8350 2050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 2050 50  0001 C CNN
-F 3 "" H 8250 2050 50  0001 C CNN
-	1    8250 2050
-	-1   0    0    1   
-$EndComp
-NoConn ~ 8450 2550
 Wire Wire Line
 	8700 4600 8800 4600
 Wire Wire Line
@@ -770,4 +690,47 @@ Wire Wire Line
 	9600 5200 9500 5200
 Wire Wire Line
 	9500 4600 9600 4600
+Wire Wire Line
+	8450 2250 7200 2250
+Wire Wire Line
+	8450 2150 7200 2150
+Text Label 7650 2150 0    60   ~ 0
+PD8
+Text Label 7650 2250 0    60   ~ 0
+PC6
+Wire Wire Line
+	8450 2450 7200 2450
+Wire Wire Line
+	8450 2550 7200 2550
+Wire Wire Line
+	9100 4600 9100 4350
+Text Label 9100 4350 0    60   ~ 0
+PC6
+Wire Wire Line
+	9500 4600 9500 4350
+Text Label 9500 4350 0    60   ~ 0
+PD8
+Wire Wire Line
+	8700 4600 8700 4350
+Text Label 8700 4350 0    60   ~ 0
+PC15
+Wire Wire Line
+	7200 2950 7350 2950
+Wire Wire Line
+	7350 3050 7200 3050
+$Comp
+L CONN_01X01 J7
+U 1 1 59E16F7B
+P 7650 3750
+F 0 "J7" H 7850 3750 50  0000 C CNN
+F 1 "J" V 7750 3750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7650 3750 50  0001 C CNN
+F 3 "" H 7650 3750 50  0001 C CNN
+	1    7650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3750 7450 3750
+Text Label 7250 3750 0    60   ~ 0
+PA15
 $EndSCHEMATC
