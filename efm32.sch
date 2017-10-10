@@ -159,12 +159,12 @@ F 3 "" H 1100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reset SW1
+L Switch SW1
 U 1 1 59CC308E
 P 950 1150
 F 0 "SW1" H 950 1300 60  0000 C CNN
 F 1 "Reset" H 950 1000 60  0000 C CNN
-F 2 "footprints:SW-4" H 950 1150 60  0001 C CNN
+F 2 "lib_fp:Small_switch" H 950 1150 60  0001 C CNN
 F 3 "" H 950 1150 60  0001 C CNN
 	1    950  1150
 	1    0    0    -1  
@@ -288,8 +288,6 @@ Text HLabel 7450 2400 0    60   Input ~ 0
 PC15
 Text HLabel 7250 3400 0    60   Input ~ 0
 PD8
-NoConn ~ 650  1100
-NoConn ~ 1250 1200
 Wire Wire Line
 	8450 5450 8700 5450
 Wire Wire Line
@@ -299,7 +297,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 2050 1100 2200
 Wire Wire Line
-	650  1200 650  1300
+	650  1100 650  1300
 Connection ~ 3700 2150
 Wire Wire Line
 	3700 2050 3700 2150
@@ -926,4 +924,7 @@ Wire Wire Line
 NoConn ~ 3400 3900
 Text Label 3400 3900 0    60   ~ 0
 PA8
+Connection ~ 650  1200
+Wire Wire Line
+	1250 1100 1250 1200
 $EndSCHEMATC

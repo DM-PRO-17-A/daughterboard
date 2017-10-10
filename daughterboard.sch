@@ -227,72 +227,6 @@ F 1 "GND" H 10550 2200 50  0000 C CNN
 F 2 "" H 10550 2350 50  0001 C CNN
 F 3 "" H 10550 2350 50  0001 C CNN
 	1    10550 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_01X01 J21
-U 1 1 59DA0537
-P 10750 2050
-F 0 "J21" H 10950 2050 50  0000 C CNN
-F 1 "J" V 10850 2050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 2050 50  0001 C CNN
-F 3 "" H 10750 2050 50  0001 C CNN
-	1    10750 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 J20
-U 1 1 59DA3F4C
-P 10750 1950
-F 0 "J20" H 10950 1950 50  0000 C CNN
-F 1 "J" V 10850 1950 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1950 50  0001 C CNN
-F 3 "" H 10750 1950 50  0001 C CNN
-	1    10750 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 J19
-U 1 1 59DA4049
-P 10750 1850
-F 0 "J19" H 10950 1850 50  0000 C CNN
-F 1 "J" V 10850 1850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1850 50  0001 C CNN
-F 3 "" H 10750 1850 50  0001 C CNN
-	1    10750 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 J18
-U 1 1 59DA4121
-P 10750 1750
-F 0 "J18" H 10950 1750 50  0000 C CNN
-F 1 "J" V 10850 1750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1750 50  0001 C CNN
-F 3 "" H 10750 1750 50  0001 C CNN
-	1    10750 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 J17
-U 1 1 59DA422A
-P 10750 1650
-F 0 "J17" H 10950 1650 50  0000 C CNN
-F 1 "J" V 10850 1650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1650 50  0001 C CNN
-F 3 "" H 10750 1650 50  0001 C CNN
-	1    10750 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 J16
-U 1 1 59DA430C
-P 10750 1550
-F 0 "J16" H 10950 1550 50  0000 C CNN
-F 1 "J" V 10850 1550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 1550 50  0001 C CNN
-F 3 "" H 10750 1550 50  0001 C CNN
-	1    10750 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -348,28 +282,6 @@ F 1 "GND" H 8250 2900 50  0000 C CNN
 F 2 "" H 8250 3050 50  0001 C CNN
 F 3 "" H 8250 3050 50  0001 C CNN
 	1    8250 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 J11
-U 1 1 59D347B8
-P 8350 4350
-F 0 "J11" H 8550 4350 50  0000 C CNN
-F 1 "J" V 8450 4350 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8350 4350 50  0001 C CNN
-F 3 "" H 8350 4350 50  0001 C CNN
-	1    8350 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 J10
-U 1 1 59D348EE
-P 8350 4250
-F 0 "J10" H 8550 4250 50  0000 C CNN
-F 1 "J" V 8450 4250 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8350 4250 50  0001 C CNN
-F 3 "" H 8350 4250 50  0001 C CNN
-	1    8350 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -446,28 +358,6 @@ F 2 "" H 1400 1150 50  0000 C CNN
 F 3 "" H 1400 1150 50  0000 C CNN
 	1    1400 1150
 	0    1    1    0   
-$EndComp
-$Comp
-L CONN_01X01 J22
-U 1 1 59D3E304
-P 10650 2550
-F 0 "J22" H 10850 2550 50  0000 C CNN
-F 1 "J" V 10750 2550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10650 2550 50  0001 C CNN
-F 3 "" H 10650 2550 50  0001 C CNN
-	1    10650 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 J23
-U 1 1 59D3E474
-P 10650 2650
-F 0 "J23" H 10850 2650 50  0000 C CNN
-F 1 "J" V 10750 2650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10650 2650 50  0001 C CNN
-F 3 "" H 10650 2650 50  0001 C CNN
-	1    10650 2650
-	1    0    0    -1  
 $EndComp
 $Comp
 L USB_OTG J1
@@ -586,15 +476,11 @@ Wire Wire Line
 Wire Wire Line
 	8250 3050 8450 3050
 Wire Wire Line
-	7200 4350 8150 4350
-Wire Wire Line
-	7200 4250 8150 4250
-Wire Wire Line
 	7200 4150 8700 4150
 Wire Wire Line
 	7200 4050 9100 4050
 Wire Wire Line
-	7200 3950 9450 3950
+	7200 3950 9500 3950
 Wire Wire Line
 	3300 2900 5200 2900
 Wire Wire Line
@@ -629,10 +515,6 @@ Wire Wire Line
 	7200 1550 8450 1550
 Connection ~ 1600 950 
 Wire Wire Line
-	10350 2550 10450 2550
-Wire Wire Line
-	10350 2650 10450 2650
-Wire Wire Line
 	1200 1700 1700 1700
 Wire Wire Line
 	1700 1700 1700 950 
@@ -642,12 +524,12 @@ Wire Wire Line
 Wire Wire Line
 	800  2300 1200 2300
 $Comp
-L Reset BTN1
+L Switch BTN1
 U 1 1 59DF8A35
 P 8750 4900
 F 0 "BTN1" H 8750 5050 60  0000 C CNN
 F 1 "Button" H 8750 4750 60  0000 C CNN
-F 2 "footprints:SW-4" H 8750 4900 60  0001 C CNN
+F 2 "lib_fp:Small_switch" H 8750 4900 60  0001 C CNN
 F 3 "" H 8750 4900 60  0001 C CNN
 	1    8750 4900
 	0    -1   -1   0   
@@ -655,37 +537,37 @@ $EndComp
 Wire Wire Line
 	8700 4150 8700 4600
 $Comp
-L Reset BTN2
+L Switch BTN2
 U 1 1 59DFB381
 P 9150 4900
 F 0 "BTN2" H 9150 5050 60  0000 C CNN
 F 1 "Button" H 9150 4750 60  0000 C CNN
-F 2 "footprints:SW-4" H 9150 4900 60  0001 C CNN
+F 2 "lib_fp:Small_switch" H 9150 4900 60  0001 C CNN
 F 3 "" H 9150 4900 60  0001 C CNN
 	1    9150 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Reset BTN3
+L Switch BTN3
 U 1 1 59DFB543
-P 9500 4900
-F 0 "BTN3" H 9500 5050 60  0000 C CNN
-F 1 "Button" H 9500 4750 60  0000 C CNN
-F 2 "footprints:SW-4" H 9500 4900 60  0001 C CNN
-F 3 "" H 9500 4900 60  0001 C CNN
-	1    9500 4900
+P 9550 4900
+F 0 "BTN3" H 9550 5050 60  0000 C CNN
+F 1 "Button" H 9550 4750 60  0000 C CNN
+F 2 "lib_fp:Small_switch" H 9550 4900 60  0001 C CNN
+F 3 "" H 9550 4900 60  0001 C CNN
+	1    9550 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	9100 4050 9100 4600
 Wire Wire Line
-	9450 3950 9450 4600
+	9500 3950 9500 4600
 Wire Wire Line
 	8800 5200 8800 5400
 Wire Wire Line
-	8800 5400 9550 5400
+	8800 5400 9600 5400
 Wire Wire Line
-	9550 5400 9550 5200
+	9600 5400 9600 5200
 Wire Wire Line
 	9200 5200 9200 5400
 Connection ~ 9200 5400
@@ -703,12 +585,6 @@ $EndComp
 Wire Wire Line
 	9100 5500 9100 5400
 Connection ~ 9100 5400
-NoConn ~ 9550 4600
-NoConn ~ 9450 5200
-NoConn ~ 9100 5200
-NoConn ~ 9200 4600
-NoConn ~ 8800 4600
-NoConn ~ 8700 5200
 Wire Wire Line
 	7200 3250 8450 3250
 Wire Wire Line
@@ -794,42 +670,104 @@ Text Label 7350 4250 0    60   ~ 0
 PB7
 Text Label 7350 4350 0    60   ~ 0
 PB8
-Text Label 10400 1550 0    60   ~ 0
-AD5
-Text Label 10400 1650 0    60   ~ 0
-AD4
-Text Label 10400 1750 0    60   ~ 0
-AD3
-Text Label 10400 1850 0    60   ~ 0
-AD2
-Text Label 10400 1950 0    60   ~ 0
-AD1
-Text Label 10400 2050 0    60   ~ 0
-AD0
 NoConn ~ 6400 -150
-Wire Wire Line
-	7200 1750 8450 1750
-Wire Wire Line
-	7200 1850 8450 1850
-Wire Wire Line
-	7200 1950 8450 1950
-Wire Wire Line
-	7200 2050 8450 2050
 Wire Wire Line
 	7200 2150 8450 2150
 Wire Wire Line
 	7200 2250 8450 2250
-Text Label 8200 1750 0    60   ~ 0
+Text Label 7450 1750 0    60   ~ 0
 PC5
-Text Label 8200 1850 0    60   ~ 0
+Text Label 7450 1850 0    60   ~ 0
 PC4
-Text Label 8200 1950 0    60   ~ 0
+Text Label 7450 1950 0    60   ~ 0
 PC3
-Text Label 8200 2050 0    60   ~ 0
+Text Label 7450 2050 0    60   ~ 0
 PC2
-Text Label 8200 2150 0    60   ~ 0
+Text Label 7800 2150 0    60   ~ 0
 PC1
-Text Label 8200 2250 0    60   ~ 0
+Text Label 7800 2250 0    60   ~ 0
 PC0
+Wire Wire Line
+	7200 4250 7350 4250
+Wire Wire Line
+	7200 4350 7350 4350
+Text Label 10550 1550 0    60   ~ 0
+PB8
+Text Label 10550 1650 0    60   ~ 0
+PB7
+Text Label 10550 1750 0    60   ~ 0
+PC5
+Text Label 10550 1850 0    60   ~ 0
+PC4
+Text Label 10550 1950 0    60   ~ 0
+PC3
+Text Label 10550 2050 0    60   ~ 0
+PC2
+NoConn ~ 10350 2550
+NoConn ~ 10350 2650
+Wire Wire Line
+	7200 1850 7450 1850
+Wire Wire Line
+	7200 1950 7450 1950
+Wire Wire Line
+	7200 2050 7450 2050
+Wire Wire Line
+	7200 1750 7450 1750
+$Comp
+L CONN_01X01 J10
+U 1 1 59DF1F67
+P 8250 1750
+F 0 "J10" H 8450 1750 50  0000 C CNN
+F 1 "J" V 8350 1750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 1750 50  0001 C CNN
+F 3 "" H 8250 1750 50  0001 C CNN
+	1    8250 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J11
+U 1 1 59DF20E6
+P 8250 1850
+F 0 "J11" H 8450 1850 50  0000 C CNN
+F 1 "J" V 8350 1850 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 1850 50  0001 C CNN
+F 3 "" H 8250 1850 50  0001 C CNN
+	1    8250 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J16
+U 1 1 59DF22D1
+P 8250 1950
+F 0 "J16" H 8450 1950 50  0000 C CNN
+F 1 "J" V 8350 1950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 1950 50  0001 C CNN
+F 3 "" H 8250 1950 50  0001 C CNN
+	1    8250 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J17
+U 1 1 59DF2416
+P 8250 2050
+F 0 "J17" H 8450 2050 50  0000 C CNN
+F 1 "J" V 8350 2050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 2050 50  0001 C CNN
+F 3 "" H 8250 2050 50  0001 C CNN
+	1    8250 2050
+	-1   0    0    1   
+$EndComp
 NoConn ~ 8450 2550
+Wire Wire Line
+	8700 4600 8800 4600
+Wire Wire Line
+	8700 5200 8800 5200
+Wire Wire Line
+	9100 4600 9200 4600
+Wire Wire Line
+	9100 5200 9200 5200
+Wire Wire Line
+	9600 5200 9500 5200
+Wire Wire Line
+	9500 4600 9600 4600
 $EndSCHEMATC
