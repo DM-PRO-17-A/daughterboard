@@ -254,9 +254,9 @@ F 3 "" H 1700 950 60  0001 C CNN
 	4    1700 950 
 	1    0    0    -1  
 $EndComp
-Text HLabel 7450 1700 0    60   Input ~ 0
-AIN1
 Text HLabel 7450 1800 0    60   Input ~ 0
+AIN1
+Text HLabel 7400 1600 0    60   Input ~ 0
 AIN2
 Text HLabel 7450 1900 0    60   Input ~ 0
 BIN1
@@ -264,7 +264,7 @@ Text HLabel 7450 2000 0    60   Input ~ 0
 BIN2
 Text HLabel 7450 2200 0    60   Input ~ 0
 PWMA
-Text HLabel 3700 3900 2    60   Input ~ 0
+Text HLabel 7400 1700 0    60   Input ~ 0
 PWMB
 Text HLabel 8300 4550 0    60   Input ~ 0
 TX
@@ -367,8 +367,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 3300 7850 3300
 Wire Wire Line
-	7850 1700 7450 1700
-Wire Wire Line
 	7850 1800 7450 1800
 Wire Wire Line
 	7850 1900 7450 1900
@@ -376,8 +374,6 @@ Wire Wire Line
 	7850 2000 7450 2000
 Wire Wire Line
 	7850 2200 7450 2200
-Wire Wire Line
-	3400 3900 3700 3900
 Wire Wire Line
 	7850 900  7400 900 
 Wire Wire Line
@@ -392,8 +388,6 @@ Wire Wire Line
 	7850 1400 7400 1400
 Wire Wire Line
 	7850 1500 7400 1500
-Wire Wire Line
-	7850 1600 7400 1600
 Wire Wire Line
 	8700 4950 8150 4950
 Wire Wire Line
@@ -438,10 +432,6 @@ Wire Wire Line
 	3400 4400 3700 4400
 Wire Wire Line
 	3400 4500 3700 4500
-Wire Wire Line
-	3700 4600 3400 4600
-Wire Wire Line
-	3400 4700 3700 4700
 Wire Wire Line
 	4400 4800 3400 4800
 Wire Wire Line
@@ -629,28 +619,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 3500 5100 3850
 $Comp
-L CONN_01X01 J37
-U 1 1 59DF4B9B
-P 3900 4700
-F 0 "J37" H 4100 4700 50  0000 C CNN
-F 1 "J" V 4000 4700 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 4700 50  0001 C CNN
-F 3 "" H 3900 4700 50  0001 C CNN
-	1    3900 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 J36
-U 1 1 59DF4BA2
-P 3900 4600
-F 0 "J36" H 4100 4600 50  0000 C CNN
-F 1 "J" V 4000 4600 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 4600 50  0001 C CNN
-F 3 "" H 3900 4600 50  0001 C CNN
-	1    3900 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_01X01 J24
 U 1 1 59DF5305
 P 7950 4350
@@ -763,8 +731,6 @@ Text HLabel 7400 1400 0    60   Input ~ 0
 PC5
 Text HLabel 7400 1500 0    60   Input ~ 0
 PC6
-Text HLabel 7400 1600 0    60   Input ~ 0
-PC7
 $Comp
 L ABM11 Y1
 U 1 1 59DBA24A
@@ -868,11 +834,9 @@ Text Label 7600 1400 0    60   ~ 0
 PC5
 Text Label 7600 1500 0    60   ~ 0
 PC6
-Text Label 7600 1600 0    60   ~ 0
-PC7
-Text Label 7600 1700 0    60   ~ 0
-AIN1
 Text Label 7600 1800 0    60   ~ 0
+AIN1
+Text Label 7600 1600 0    60   ~ 0
 AIN2
 Text Label 7600 1900 0    60   ~ 0
 BIN1
@@ -918,7 +882,7 @@ Text Label 3600 3700 2    60   ~ 0
 PA5
 Text Label 3600 3800 2    60   ~ 0
 PA6
-Text Label 3650 3900 2    60   ~ 0
+Text Label 7850 1700 2    60   ~ 0
 PWMB
 Text Label 3600 4000 2    60   ~ 0
 PA9
@@ -930,10 +894,6 @@ Text Label 3600 4400 2    60   ~ 0
 PB7
 Text Label 3600 4500 2    60   ~ 0
 PB8
-Text Label 3600 4600 2    60   ~ 0
-PB11
-Text Label 3600 4700 2    60   ~ 0
-PB12
 Text Label 3600 4800 2    60   ~ 0
 PB13
 Text Label 3600 4900 2    60   ~ 0
@@ -953,4 +913,17 @@ Wire Wire Line
 	4050 5200 4150 5200
 Wire Wire Line
 	4050 5150 4050 5200
+NoConn ~ 3400 4600
+NoConn ~ 3400 4700
+Text Label 3400 4600 0    60   ~ 0
+PB11
+Text Label 3400 4700 0    60   ~ 0
+PB12
+Wire Wire Line
+	7400 1600 7850 1600
+Wire Wire Line
+	7850 1700 7400 1700
+NoConn ~ 3400 3900
+Text Label 3400 3900 0    60   ~ 0
+PA8
 $EndSCHEMATC

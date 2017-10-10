@@ -558,8 +558,6 @@ Wire Wire Line
 Connection ~ 2450 1550
 Connection ~ 1900 950 
 Wire Wire Line
-	7200 2550 8450 2550
-Wire Wire Line
 	7200 2450 8450 2450
 Wire Wire Line
 	10550 2350 10350 2350
@@ -750,7 +748,6 @@ F28 "PC3" I R 7200 1950 60
 F29 "PC4" I R 7200 1850 60 
 F30 "PC5" I R 7200 1750 60 
 F31 "PC6" I R 7200 2450 60 
-F32 "PC7" I R 7200 2550 60 
 $EndSheet
 Wire Wire Line
 	1400 3400 1100 3400
@@ -767,8 +764,6 @@ Text Label 8250 1650 0    60   ~ 0
 RX
 Text Label 8250 2450 0    60   ~ 0
 PC6
-Text Label 8250 2550 0    60   ~ 0
-PC7
 Text Label 7700 3250 0    60   ~ 0
 SDA
 Text Label 7700 3350 0    60   ~ 0
@@ -836,4 +831,5 @@ Text Label 8200 2150 0    60   ~ 0
 PC1
 Text Label 8200 2250 0    60   ~ 0
 PC0
+NoConn ~ 8450 2550
 $EndSCHEMATC
