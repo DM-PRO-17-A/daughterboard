@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 63.924999 56.405 143.973 148.075001)
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 677)
     (zones 0)
     (modules 62)
@@ -1989,7 +1989,7 @@
   )
 
   (module lib_fp:logo (layer F.Cu) (tedit 0) (tstamp 59DD61D2)
-    (at 118 68)
+    (at 120.65 69.088)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -2722,8 +2722,11 @@
       (net 1 +5V))
   )
 
-  (gr_text AUTO² (at 89.408 78.74) (layer F.SilkS)
-    (effects (font (size 8 5) (thickness 1)))
+  (gr_text "Alexander Alf\nEmbrik Einang\nCarl Erik Friedemann\nEdvard Gjessing Bakken\nChristoffer Gran\nSindre Hansen\nHåvard Hellem\nAne Hov\nAnders Larsen\nEirik Lund \nSebastian Olafsson" (at 88.138 70.358) (layer F.SilkS)
+    (effects (font (size 1.25 1.25) (thickness 0.3)) (justify left))
+  )
+  (gr_text AUTO² (at 124.714 106.68 270) (layer F.SilkS)
+    (effects (font (size 7 4) (thickness 1)))
   )
   (gr_line (start 102 148) (end 134 148) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 64 148) (end 84 148) (angle 90) (layer Edge.Cuts) (width 0.15))
